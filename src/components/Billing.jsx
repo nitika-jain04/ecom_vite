@@ -21,7 +21,7 @@ function Billing({ handleCart }) {
   // }, 0);
 
   return (
-    <div className="bg-white absolute top-0 right-0 h-[100vh] sm:w-1/2 w-full px-10 py-5 flex flex-col gap-3 justify-between">
+    <div className="bg-white absolute top-0 right-0 h-[100vh] sm:w-1/2 w-[90vw] px-10 py-5 flex flex-col gap-3 justify-between">
       <div className="flex items-center justify-between">
         <p className="text-xl blinker-semibold tracking-wide">Cart</p>
         <MdClose size={20} onClick={() => handleCart(false)} />
