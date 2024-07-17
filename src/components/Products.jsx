@@ -3,9 +3,15 @@ import { MdCurrencyRupee } from "react-icons/md";
 import { addToCart } from "../../store/actions";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
+import toast, { Toaster } from "react-hot-toast";
 
 const Products = ({ data }) => {
   const dispatch = useDispatch();
+
+  function handleAddTocart() {
+    dispatch(addToCart(data));
+    toast.success("Added to Cart");
+  }
 
   return (
     <div className="flex flex-col justify-center gap-5 drop-shadow-lg shadow-red-500 p-5 rounded-md bg-purple-50 min-h-72 max-h-72 w-[180px]">
@@ -32,7 +38,7 @@ const Products = ({ data }) => {
         <FaRegHeart />
         <button
           className=" border-2 border-red-400 text-red-400 w-fit px-3 rounded-md"
-          onClick={() => dispatch(addToCart(data))}
+          onClick={() => handleAddTocart()}
         >
           Add
         </button>

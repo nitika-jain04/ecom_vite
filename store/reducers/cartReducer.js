@@ -7,7 +7,7 @@ const initialState = {
 const cartReducer = (state = initialState, action) => {
   switch (action.type) {
     case actionType.ADDTOCART: {
-      state.cartItems.push(action.payload);
+      state.cartItems.push({ ...action.payload, qty: 1 });
       console.log(state.cartItems);
 
       return { ...state };

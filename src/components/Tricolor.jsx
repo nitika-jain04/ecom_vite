@@ -2,19 +2,9 @@
 import React from "react";
 import { tricolor } from "../../data";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Household() {
-  // function handleScroll(direction) {
-  //   const container = document.getElementById("products-page");
-  //   const scrollAmount =
-  //     direction === "left" ? -cardWidth - 10 : cardWidth + 10;
-  //   container.scrollBy({
-  //     left: scrollAmount,
-  //     behavior: "smooth",
-  //   });
-  //   setScrollX(scrollX + scrollAmount);
-  // }
   return (
     <div className="mx-5 my-10 mt-20 lg:mx-10" id="household">
       <div className="flex items-center justify-between">
@@ -22,43 +12,34 @@ export default function Household() {
           Independence Day / Republic Day
         </p>
 
-        {/* <div className="flex gap-2">
-          <button className="text-xl bg-red-400 text-white hover:cursor-pointer p-2">
-            <FaArrowLeftLong onClick={() => handleScroll("left")} />
-          </button>
-          <button className="text-xl bg-red-400 text-white hover:cursor-pointer p-2">
-            <FaArrowRightLong onClick={() => handleScroll("right")} />
-          </button>
-        </div> */}
-
-        {/* <Link to="/categories/tricolor"> */}
-        <div className="flex gap-3 items-center">
-          <p className="blinker-semibold text-lg">View All</p>
-          <MdOutlineArrowForwardIos />
-        </div>
-        {/* </Link> */}
+        <Link to="/categories/tricolor">
+          <div className="flex gap-3 items-center">
+            <p className="blinker-semibold text-lg">View All</p>
+            <MdOutlineArrowForwardIos />
+          </div>
+        </Link>
       </div>
       <div className="overflow-x-auto mx-5" id="products-page">
         <div className="flex space-x-8">
           {tricolor.slice(0, 6).map((data) => (
-            // <Link href={`/product/${data.id}`} key={data.id}>
-            <div
-              key={data.id}
-              className="flex-shrink-0 flex flex-col gap-5 items-center justify-center border-2 border-red-400 p-3 rounded-md transition-all 3s ease-in-out hover:scale-95"
-              style={{ minWidth: "200px" }}
-            >
-              <img
-                src={data.image}
-                alt="bangles"
-                className="aspect-square rounded-md"
-                height="200"
-                width="200"
-              />
-              <div className="flex-col flex gap-2 items-center">
-                <p className="text-center text-lg blinker-semibold">
-                  {data.name}
-                </p>
-                {/* 
+            <Link to={`/product/${data.id}`} key={data.id}>
+              <div
+                key={data.id}
+                className="flex-shrink-0 flex flex-col gap-5 items-center justify-center border-2 border-red-400 p-3 rounded-md transition-all 3s ease-in-out hover:scale-95"
+                style={{ minWidth: "200px" }}
+              >
+                <img
+                  src={data.image}
+                  alt="bangles"
+                  className="aspect-square rounded-md"
+                  height="200"
+                  width="200"
+                />
+                <div className="flex-col flex gap-2 items-center">
+                  <p className="text-center text-lg blinker-semibold">
+                    {data.name}
+                  </p>
+                  {/* 
                   <div className="flex items-center gap-5">
                     <p className="flex items-center font-bold blinker-semibold">
                       <MdOutlineCurrencyRupee />
@@ -68,9 +49,9 @@ export default function Household() {
                       + Add
                     </button>
                   </div> */}
+                </div>
               </div>
-            </div>
-            // </Link>
+            </Link>
           ))}
           {/* <Link href="/categories/tricolor"> */}
           <button className="flex items-center justify-center gap-3 border-2 border-red-400 rounded-md p-10 transition-all 3s ease-in-out hover:scale-95">

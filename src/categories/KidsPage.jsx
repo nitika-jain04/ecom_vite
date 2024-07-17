@@ -5,10 +5,14 @@ import { kids } from "../../data";
 import Products from "../components/Products";
 import ProductNav from "../components/ProductNav";
 import Navbar from "../components/Navbar";
+import { Toaster } from "react-hot-toast";
 
 const KidsPage = () => {
   return (
     <div>
+      <div>
+        <Toaster position="top-center" />
+      </div>
       <Navbar />
       <div className="mx-5 my-10 flex flex-col items-center gap-5 justify-evenly">
         <p className="text-center font-bold text-3xl blinker-semibold">Kids</p>

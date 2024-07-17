@@ -27,3 +27,22 @@ body {
   display: block;
   width: 100%;
 }
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Remove scrollbar space for Webkit browsers */
+  /* Optional: just make scrollbar invisible */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #c1bcbc; /* Grey scrollbar handle */
+  border-radius: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #bcb9b9; /* Darker grey on hover */
+}
+
+.custom-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: 2px; /* Firefox */
+}

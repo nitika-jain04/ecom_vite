@@ -4,7 +4,7 @@ import { MdClose } from "react-icons/md";
 function Billing({ handleCart }) {
   const cart = useSelector((state) => state.cart);
   const cartData = cart.cartItems;
-  console.log(cartData, "cart");
+  // console.log(cartData, "cart");
 
   // const totalCartItems = cartCtx.items.reduce((totalNumberOfItems, item) => {
   //   return totalNumberOfItems + item.quantity;
@@ -21,7 +21,7 @@ function Billing({ handleCart }) {
         <MdClose size={20} onClick={() => handleCart(false)} />
       </div>
 
-      <div className="min-h-[80vh] max-h-[80vh] flex flex-col gap-1 overflow-y-scroll">
+      <div className="min-h-[70vh] max-h-[70vh] flex flex-col gap-1 overflow-y-auto overscroll-none custom-scrollbar">
         {cart && cartData.length > 0 ? (
           <Cart cartData={cartData} />
         ) : (
