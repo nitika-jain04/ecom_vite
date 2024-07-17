@@ -4,8 +4,8 @@ export const addToCart = (value) => {
   return { type: actionType.ADDTOCART, payload: value };
 };
 
-export const removeFromcart = (value) => {
-  return { type: actionType.ADDTOCART, payload: value };
+export const removeFromCart = (value) => {
+  return { type: actionType.REMOVEFROMCART, payload: value };
 };
 
 export const incrementQuantity = (value) => {

@@ -29,7 +29,7 @@ function Navbar() {
             handleCart(true);
           }}
         />
-        <span className="absolute -top-4 left-4 text-sm rounded-full px-2 bg-white">
+        <span className="absolute -top-4 left-4 text-sm rounded-full px-2 bg-white font-semibold">
           {cartSize > 0 && cartSize}
         </span>
       </div>

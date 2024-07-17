@@ -3,7 +3,7 @@ import { MdClose } from "react-icons/md";
 import {
   decrementQuantity,
   incrementQuantity,
-  removeFromcart,
+  removeFromCart,
 } from "../../store/actions";
 import { MdDelete } from "react-icons/md";
 
@@ -81,7 +81,7 @@ function Cart({ cartData }) {
       </div>
 
       <div>
-        <MdDelete onClick={() => dispatch(removeFromcart(data.id))} />
+        <MdDelete onClick={() => dispatch(removeFromCart(data.id))} />
       </div>
     </div>
   ));

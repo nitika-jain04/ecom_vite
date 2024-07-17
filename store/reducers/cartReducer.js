@@ -30,10 +30,17 @@ const cartReducer = (state = initialState, action) => {
     }
 
     case actionType.REMOVEFROMCART: {
+      const index = state.cartItems.findIndex(
+        (item) => item.id === action.payload
+      );
+      const size = state.cartItems[index].qty;
+
       const newCart = state.cartItems.filter(
         (item) => item.id !== action.payload
       );
+
       state.cartItems = newCart;
+      state.totalCartSize -= size;
 
       return { ...state };
     }

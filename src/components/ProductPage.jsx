@@ -1,5 +1,3 @@
-"use client";
-
 // import { Toaster } from "react-hot-toast";
 import { FaPlus } from "react-icons/fa";
 import { FaMinus } from "react-icons/fa";
@@ -9,9 +7,13 @@ import { MdCurrencyRupee } from "react-icons/md";
 import Carousel from "../components/Carousel";
 import { useParams } from "react-router-dom";
 import Navbar from "./Navbar";
+import toast, { Toaster } from "react-hot-toast";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../../store/actions";
 
 function ProductPage() {
   const param = useParams();
+  const dispatch = useDispatch();
 
   const selectedProduct = allData.find((prod) => prod.id === +param.id);
 
@@ -21,19 +23,28 @@ function ProductPage() {
 
   return (
     <div>
-      <ProductCard key={selectedProduct.id} selectedProduct={selectedProduct} />
+      <div>
+        <Toaster position="top-center" />
+      </div>
+      <ProductCard
+        key={selectedProduct.id}
+        selectedProduct={selectedProduct}
+        dispatch={dispatch}
+      />
     </div>
   );
 }
 
-function ProductCard({ selectedProduct }) {
+function ProductCard({ selectedProduct, dispatch }) {
   const [currImg, setCurrImg] = useState(selectedProduct.image);
 
+  function handleAddToCart() {
+    dispatch(addToCart(selectedProduct));
+    toast.success("Added to Cart");
+  }
   return (
     <div>
       <Navbar />
-
-      <div>{/* <Toaster toastOptions={{ duration: 6000 }} /> */}</div>
 
       {selectedProduct.images ? <Carousel /> : ""}
 
@@ -51,27 +62,6 @@ function ProductCard({ selectedProduct }) {
                 className="max-h-[420px] w-[300px] object-fill"
               />
             </div>
-
-            {/*<div className="flex gap-1 w-1/5 mx-20 mt-5 md:mx-40 xl:mx-20">
-              <img
-                className="hover:border hover:border-gray-400 hover:cursor-pointer hover:shadow-md hover:shadow-gray-600"
-                src={selectedProduct.image}
-                alt=""
-                onMouseEnter={() => setCurrImg(selectedProduct.image)}
-              />
-              <img
-                className="hover:border hover:border-gray-400 hover:cursor-pointer hover:shadow-md hover:shadow-gray-600"
-                src={selectedProduct.image1}
-                alt=""
-                onMouseEnter={() => setCurrImg(selectedProduct.img1)}
-              />
-              <img
-                className="hover:border hover:border-gray-400 hover:cursor-pointer hover:shadow-md hover:shadow-gray-600"
-                src={selectedProduct.img3}
-                alt=""
-                onMouseEnter={() => setCurrImg(selectedProduct.img3)}
-              />
-            </div> */}
           </div>
 
           <div className="px-10 py-5 flex flex-col gap-5 items-center bg-[#e5e6e9] w-1/2 mt-10">
@@ -80,10 +70,6 @@ function ProductCard({ selectedProduct }) {
             </p> */}
 
             <div className="flex gap-5 items-center justify-center sm:flex sm:flex-row md:justify-between">
-              {/* <p className="text-xl font-bold styles.blinker md:text-2xl">
-                Quantity
-              </p> */}
-
               <p className="text-xl font-bold styles.blinker md:text-2xl flex items-center">
                 {selectedProduct.price ? <MdCurrencyRupee /> : ""}
                 {selectedProduct.price ? `${selectedProduct.price}.00` : ""}
@@ -100,7 +86,10 @@ function ProductCard({ selectedProduct }) {
             </div>
 
             <div className="grid grid-cols-1 gap-5 md:grid-cols-2 self-center items-center">
-              <button className="font-bold text-lg border-2 w-fit border-red-600 text-red-600 p-2 hover:cursor-pointer transition-all duration-300 ease-in-out">
+              <button
+                className="font-bold text-lg border-2 w-fit border-red-600 text-red-600 p-2 hover:cursor-pointer transition-all duration-300 ease-in-out"
+                onClick={() => handleAddToCart()}
+              >
                 ADD +
               </button>
             </div>
