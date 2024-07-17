@@ -36,8 +36,6 @@ function ProductPage() {
 }
 
 function ProductCard({ selectedProduct, dispatch }) {
-  const [currImg, setCurrImg] = useState(selectedProduct.image);
-
   function handleAddToCart() {
     dispatch(addToCart(selectedProduct));
     toast.success("Added to Cart");
@@ -57,19 +55,19 @@ function ProductCard({ selectedProduct, dispatch }) {
           <div className="xl:flex xl:flex-col xl:w-1/2">
             <div className="flex items-center justify-center mt-10">
               <img
-                src={currImg}
+                src={selectedProduct.image}
                 alt={selectedProduct.name}
                 className="max-h-[420px] w-[300px] object-fill"
               />
             </div>
           </div>
 
-          <div className="px-10 py-5 flex flex-col gap-5 items-center bg-[#e5e6e9] w-1/2 mt-10">
+          <div className="px-10 py-5 flex flex-col gap-5 border border-black bg-[#e5e6e9] w-1/2 mt-10">
             {/* <p className="text-xl styles.blinker leading-8">
               {selectedProduct.description}
             </p> */}
 
-            <div className="flex gap-5 items-center justify-center sm:flex sm:flex-row md:justify-between">
+            <div className="flex gap-5 items-center">
               <p className="text-xl font-bold styles.blinker md:text-2xl flex items-center">
                 {selectedProduct.price ? <MdCurrencyRupee /> : ""}
                 {selectedProduct.price ? `${selectedProduct.price}.00` : ""}
