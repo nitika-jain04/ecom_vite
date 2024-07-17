@@ -74,7 +74,7 @@ function ProductCard({ selectedProduct, dispatch }) {
                 {selectedProduct.price ? <MdCurrencyRupee /> : ""}
                 {selectedProduct.price ? `${selectedProduct.price}.00` : ""}
               </p>
-              <div className="flex items-center font-bold">
+              {/* <div className="flex items-center font-bold">
                 <button className="border-2 border-black bg-white px-5 py-3 text-xl hover:bg-transparent transition-all duration-200 ease-in">
                   <FaMinus size={12} />
                 </button>
@@ -82,7 +82,7 @@ function ProductCard({ selectedProduct, dispatch }) {
                 <button className="border-2 border-black bg-white px-5 py-3 text-xl hover:bg-transparent transition-all duration-200 ease-in">
                   <FaPlus size={12} className="font-semibold" />
                 </button>
-              </div>
+              </div> */}
             </div>
 
             <div className="grid grid-cols-1 gap-5 md:grid-cols-2 self-center items-center">
