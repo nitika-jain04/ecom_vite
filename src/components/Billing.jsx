@@ -1,5 +1,11 @@
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { MdClose } from "react-icons/md";
+import {
+  decrementQuantity,
+  incrementQuantity,
+  removeFromcart,
+} from "../../store/actions";
+import { MdDelete } from "react-icons/md";
 
 function Billing({ handleCart }) {
   const cart = useSelector((state) => state.cart);
@@ -41,26 +47,41 @@ function EmptyCart() {
 }
 
 function Cart({ cartData }) {
+  const dispatch = useDispatch();
+
   return cartData.map((data) => (
-    <div
-      key={data.id}
-      className="flex items-start gap-5 p-2 blinker-semibold shadow-md"
-    >
-      <img
-        src={data.image}
-        alt={data.name}
-        className="w-24 h-24 object-fill rounded-md"
-      />
-      <div className="flex flex-col gap-3">
-        <p className="">{data.name}</p>
-        <div className="flex items-center gap-5">
-          <div className="flex items-center">
-            <button className="px-2 border">-</button>
-            <p className="px-2">1</p>
-            <button className="px-2 border">+</button>
+    <div className="flex justify-between p-2 blinker-semibold shadow-md">
+      <div key={data.id} className="flex items-start justify-between gap-5">
+        <img
+          src={data.image}
+          alt={data.name}
+          className="w-24 h-24 object-fill rounded-md"
+        />
+        <div className="flex flex-col gap-3">
+          <p className="">{data.name}</p>
+          <div className="flex items-center gap-5">
+            <div className="flex items-center">
+              <button
+                className="px-2 border"
+                onClick={() => dispatch(decrementQuantity(data.id))}
+              >
+                -
+              </button>
+              <p className="px-2">{data.qty}</p>
+              <button
+                className="px-2 border"
+                onClick={() => dispatch(incrementQuantity(data.id))}
+              >
+                +
+              </button>
+            </div>
+            <div>{data.price && `${data.price}`}</div>
           </div>
-          <div>${data.price}</div>
         </div>
+      </div>
+
+      <div>
+        <MdDelete onClick={() => dispatch(removeFromcart(data.id))} />
       </div>
     </div>
   ));

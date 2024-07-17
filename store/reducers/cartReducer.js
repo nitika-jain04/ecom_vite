@@ -2,14 +2,30 @@ import { actionType } from "../constants/actionType";
 
 const initialState = {
   cartItems: [],
+  totalCartSize: 0,
 };
 
 const cartReducer = (state = initialState, action) => {
   switch (action.type) {
     case actionType.ADDTOCART: {
-      state.cartItems.push({ ...action.payload, qty: 1 });
-      console.log(state.cartItems);
+      let newCartItems = state.cartItems.slice();
 
+      let index = newCartItems.findIndex(
+        (item) => item.id === action.payload.id
+      );
+
+      if (index !== -1) {
+        newCartItems[index] = {
+          ...newCartItems[index],
+          qty: newCartItems[index].qty + 1,
+        };
+      } else {
+        newCartItems.push({ ...action.payload, qty: 1 });
+      }
+
+      state.cartItems = newCartItems;
+      state.totalCartSize++;
+      console.log(state.cartItems);
       return { ...state };
     }
 
@@ -22,10 +38,34 @@ const cartReducer = (state = initialState, action) => {
       return { ...state };
     }
 
-    // case actionType.INCREMENTQUANTITY:{
+    case actionType.INCREMENTQUANTITY: {
+      const newCartItems = state.cartItems.map((item) => {
+        if (item.id === action.payload) {
+          return { ...item, qty: item.qty + 1 };
+        }
+        console.log("increment", item.qty);
+        state.totalCartSize++;
+        return item;
+      });
 
-    // }
+      state.cartItems = newCartItems;
+      return { ...state };
+    }
 
+    case actionType.DECREMENTQUANTITY: {
+      const newCartItems = state.cartItems.map((item) => {
+        if (item.id === action.payload) {
+          return { ...item, qty: item.qty - 1 };
+        }
+        console.log("decrement", item.qty);
+        return item;
+      });
+
+      const filteredArray = newCartItems.filter((item) => item.qty !== 0);
+      state.cartItems = filteredArray;
+      state.totalCartSize--;
+      return { ...state };
+    }
     default:
       return state;
   }

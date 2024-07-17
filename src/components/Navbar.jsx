@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 function Navbar() {
   const [open, setOpen] = useState(false);
   const cart = useSelector((state) => state.cart);
-  const cartSize = cart.cartItems.length;
+  const cartSize = cart.totalCartSize;
 
   function handleCart(click) {
     setOpen(click);

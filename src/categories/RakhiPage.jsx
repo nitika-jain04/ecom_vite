@@ -5,6 +5,7 @@ import { rakhi } from "../../data";
 import Products from "../components/Products";
 import ProductNav from "../components/ProductNav";
 import Navbar from "../components/Navbar";
+import { Toaster } from "react-hot-toast";
 
 const RakhiPage = () => {
   return (
