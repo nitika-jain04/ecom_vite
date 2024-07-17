@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+NG+Modern:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Lobster&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading {
+  font-family: "Pacifico", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: xx-large;
+}
+
+.blinker-semibold {
+  font-family: "Blinker", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+html,
+body {
+  overscroll-behavior: none;
+}
+
+.carousel img {
+  display: block;
+  width: 100%;
+}
