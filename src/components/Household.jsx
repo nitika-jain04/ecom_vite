@@ -1,5 +1,4 @@
-"use client";
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import { household } from "../../data";
 import { MdOutlineCurrencyRupee } from "react-icons/md";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
@@ -52,7 +51,7 @@ function Household() {
             </Link>
           ))}
           <Link to="/categories/household">
-            <button className="flex items-center justify-center gap-3 border-2 border-red-400 rounded-md p-10 h-full transition-all 3s ease-in-out hover:scale-95">
+            <button className="flex items-center justify-center gap-3 border-2 border-red-400 rounded-md p-10 h-full transition-all 3s ease-in-out">
               <p className="blinker-semibold text-lg">View More</p>
               <MdOutlineArrowForwardIos size={20} />
             </button>

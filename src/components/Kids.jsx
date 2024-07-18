@@ -46,7 +46,7 @@ function Kids() {
             </Link>
           ))}
           <Link to="/categories/kids">
-            <button className="flex items-center justify-center gap-3 border-2 border-red-400 rounded-md p-10 h-full transition-all 3s ease-in-out hover:scale-95">
+            <button className="flex items-center justify-center gap-3 border-2 border-red-400 rounded-md p-10 h-full transition-all 3s ease-in-out">
               <p className="blinker-semibold text-lg">View More</p>
               <MdOutlineArrowForwardIos size={20} />
             </button>
