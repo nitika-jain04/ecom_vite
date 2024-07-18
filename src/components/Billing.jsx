@@ -36,17 +36,18 @@ function Billing({ handleCart }) {
           <EmptyCart />
         )}
       </div>
+      <div className="-mt-44">
+        <hr className="border-t-2 border-red-400" />
 
-      <hr className="border-t-2 border-red-400" />
-
-      <div className="flex items-center gap-5 -mt-20">
-        <p className="blinker-semibold text-lg">Subtotal</p>
-        <p className="blinker-semibold flex items-center text-lg">
-          <span>
-            <MdCurrencyRupee />
-          </span>
-          0
-        </p>
+        <div className="flex items-center gap-5">
+          <p className="blinker-semibold text-lg">Subtotal</p>
+          <p className="blinker-semibold flex items-center text-lg">
+            <span>
+              <MdCurrencyRupee />
+            </span>
+            0
+          </p>
+        </div>
       </div>
     </div>
   );
