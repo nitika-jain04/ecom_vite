@@ -32,7 +32,7 @@ function Billing({ handleCart }) {
         />
       </div>
 
-      <div className="min-h-[70vh] max-h-[70vh] flex flex-col gap-1 overflow-y-auto overscroll-none custom-scrollbar">
+      <div className="min-h-[65vh] max-h-[65vh] flex flex-col gap-1 overflow-y-auto overscroll-none custom-scrollbar">
         {cart && cartData.length > 0 ? (
           <Cart cartData={cartData} />
         ) : (
@@ -42,7 +42,7 @@ function Billing({ handleCart }) {
 
       <hr className="border-t-2 border-red-400" />
 
-      <div className="flex items-center gap-5 mb-44">
+      <div className="flex items-center gap-5 mb-40">
         <p className="blinker-semibold text-lg">Subtotal</p>
         <p className="blinker-semibold flex items-center text-lg">
           <span>
