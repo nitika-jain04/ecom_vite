@@ -14,7 +14,7 @@ const Products = ({ data }) => {
   }
 
   return (
-    <div className="flex flex-col justify-center gap-5 drop-shadow-lg shadow-red-500 p-3 rounded-md bg-purple-50 min-h-72 max-h-72 w-[150px]">
+    <div className="flex flex-col justify-center gap-5 drop-shadow-lg shadow-red-500 p-3 rounded-md bg-purple-50 min-h-72 max-h-72 w-[160px]">
       <Link to={`/product/${data.id}`}>
         <img
           src={data.image}

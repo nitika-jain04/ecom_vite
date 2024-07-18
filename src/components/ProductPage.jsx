@@ -2,7 +2,6 @@
 import { FaPlus } from "react-icons/fa";
 import { FaMinus } from "react-icons/fa";
 import { allData } from "../../data";
-import { useState } from "react";
 import { MdCurrencyRupee } from "react-icons/md";
 import Carousel from "../components/Carousel";
 import { useParams } from "react-router-dom";
@@ -62,7 +61,13 @@ function ProductCard({ selectedProduct }) {
         />
 
         <div className="flex flex-col gap-5 items-center justify-start w-full md:w-1/2 my-5 md:my-10">
-          <div className="flex gap-5">
+          <div className="flex items-center gap-5">
+            <div className="flex items-center gap-1">
+              {selectedProduct.price ? <MdCurrencyRupee /> : ""}
+              <p className="blinker-semibold text-lg">
+                {selectedProduct.price ? selectedProduct.price : ""}
+              </p>
+            </div>
             {/* <div className="flex items-center gap-5 text-xl border-2 border-red-500">
               <button
                 className="border-r-2 border-red-500 p-2 text-xl blinker-semibold"

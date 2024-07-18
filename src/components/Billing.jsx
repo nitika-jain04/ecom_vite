@@ -8,12 +8,13 @@ import {
 import { MdDelete } from "react-icons/md";
 import { emptycart } from "../assets/img";
 import { Link } from "react-router-dom";
-// import { emptyCart } from "../assets"
 
 function Billing({ handleCart }) {
   const cart = useSelector((state) => state.cart);
   const cartData = cart.cartItems;
   const cartSize = cart.totalCartSize;
+
+  const totalAmount = cartData;
 
   return (
     <div className="bg-white absolute top-0 right-0 h-[100vh] sm:w-1/3 w-[90vw] px-5 py-5 flex flex-col gap-3 justify-between">
@@ -36,8 +37,11 @@ function Billing({ handleCart }) {
         )}
       </div>
 
-      <div className="flex">
+      <hr className="border-t-2 border-red-400" />
+
+      <div className="flex items-center gap-5">
         <p className="blinker-semibold text-lg">Subtotal</p>
+        <p>0</p>
       </div>
     </div>
   );
