@@ -25,7 +25,7 @@ export default function Household() {
             <Link to={`/product/${data.id}`} key={index}>
               <div
                 key={data.id}
-                className="flex-shrink-0 flex flex-col gap-5 items-center justify-center border-2 border-red-400 p-3 rounded-md transition-all 3s ease-in-out hover:scale-95"
+                className="flex-shrink-0 flex flex-col gap-5 items-center justify-center border-2 border-red-400 p-3 rounded-md transition-all 3s ease-in-out"
                 style={{ minWidth: "200px" }}
               >
                 <img
