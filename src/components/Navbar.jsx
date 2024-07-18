@@ -13,12 +13,8 @@ function Navbar() {
 
   // scroll to top of page after a page transition.
   useLayoutEffect(() => {
-    document.documentElement.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    document.documentElement.scrollTo({ top: 0, behavior: "smooth" });
   }, [location.pathname]);
-
-  function handleCart(click) {
-    setOpen(click);
-  }
 
   useEffect(() => {
     if (open) {
@@ -32,9 +28,13 @@ function Navbar() {
     };
   }, [open]);
 
+  function handleCart(click) {
+    setOpen(click);
+  }
+
   return (
     <>
-      <Outlet />
+      {/* <Outlet /> */}
       <nav className="flex items-center justify-between bg-red-400 p-8 sticky top-0 z-50">
         <Link to="/">
           <p className="text-lg text-gray-900 font-bold heading text-center">
