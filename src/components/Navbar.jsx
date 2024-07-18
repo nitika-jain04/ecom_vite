@@ -9,7 +9,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
   const cart = useSelector((state) => state.cart);
   const cartSize = cart.totalCartSize;
-  console.log(cartSize);
+  // console.log(cartSize);
 
   function handleCart(click) {
     setOpen(click);

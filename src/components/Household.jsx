@@ -6,16 +6,6 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 function Household() {
-  // function handleScroll(direction) {
-  //   const container = document.getElementById("products-page");
-  //   const scrollAmount =
-  //     direction === "left" ? -cardWidth - 10 : cardWidth + 10;
-  //   container.scrollBy({
-  //     left: scrollAmount,
-  //     behavior: "smooth",
-  //   });
-  //   setScrollX(scrollX + scrollAmount);
-  // }
   return (
     <div className="mx-5 my-10 mt-20 lg:mx-10" id="household">
       <div className="flex items-center justify-between">

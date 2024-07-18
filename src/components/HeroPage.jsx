@@ -74,10 +74,7 @@ function HeroPage() {
         {categories.map((category, index) => {
           return (
             <Link to={`/categories/${category.id}`} key={index}>
-              <div
-                className="flex flex-col items-center object-cover cursor-pointer h-44"
-                // onClick={() => handleClick(category.id)}
-              >
+              <div className="flex flex-col items-center object-cover cursor-pointer h-44">
                 <img
                   src={category.img}
                   alt={category.cateName}

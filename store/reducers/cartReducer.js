@@ -51,10 +51,10 @@ const cartReducer = (state = initialState, action) => {
           return { ...item, qty: item.qty + 1 };
         }
         console.log("increment", item.qty);
-        state.totalCartSize++;
         return item;
       });
 
+      state.totalCartSize++;
       state.cartItems = newCartItems;
       return { ...state };
     }
