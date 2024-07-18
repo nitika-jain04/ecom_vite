@@ -6,6 +6,7 @@ import Products from "../components/Products";
 import ProductNav from "../components/ProductNav";
 import Navbar from "../components/Navbar";
 import { Toaster } from "react-hot-toast";
+import { Helmet } from "react-helmet";
 
 const RakhiPage = () => {
   return (
