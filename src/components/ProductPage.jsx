@@ -55,7 +55,7 @@ function ProductCard({ selectedProduct }) {
         <img
           src={selectedProduct.image}
           alt={selectedProduct.name}
-          className="rounded-md self-center max-h-[350px] min-w-[250px] max-w-[300px]"
+          className="rounded-md self-center max-h-[300px] min-w-[250px] max-w-[300px]"
         />
 
         <div className="flex flex-col gap-5 items-center justify-start w-full md:w-1/2 my-5 md:my-10">
