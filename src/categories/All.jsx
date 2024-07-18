@@ -6,10 +6,15 @@ import Products from "../components/Products";
 import ProductNav from "../components/ProductNav";
 import Navbar from "../components/Navbar";
 import { Toaster } from "react-hot-toast";
+import { Helmet } from "react-helmet";
 
 const AllPage = () => {
   return (
-    <div>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>All Products</title>
+      </Helmet>
       <div>
         <Toaster position="top-center" />
       </div>
@@ -29,7 +34,7 @@ const AllPage = () => {
           })}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

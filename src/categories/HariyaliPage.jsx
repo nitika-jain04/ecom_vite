@@ -6,10 +6,15 @@ import Products from "../components/Products";
 import ProductNav from "../components/ProductNav";
 import Navbar from "../components/Navbar";
 import { Toaster } from "react-hot-toast";
+import { Helmet } from "react-helmet";
 
 const HariyaliPage = () => {
   return (
-    <div>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Hariyali</title>
+      </Helmet>
       <div>
         <Toaster position="top-center" />
       </div>
@@ -31,7 +36,7 @@ const HariyaliPage = () => {
           })}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

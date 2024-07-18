@@ -9,7 +9,11 @@ import { Toaster } from "react-hot-toast";
 
 const RakhiPage = () => {
   return (
-    <div>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Rakhis</title>
+      </Helmet>
       <div>
         <Toaster position="top-center" />
       </div>
@@ -29,7 +33,7 @@ const RakhiPage = () => {
           })}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

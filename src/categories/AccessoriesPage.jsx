@@ -14,7 +14,6 @@ const AccessoriesPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Accessories</title>
-        {/* <link rel="canonical" href="http://mysite.com/example" /> */}
       </Helmet>
 
       <div>

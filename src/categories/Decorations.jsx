@@ -6,10 +6,15 @@ import Products from "../components/Products";
 import ProductNav from "../components/ProductNav";
 import Navbar from "../components/Navbar";
 import { Toaster } from "react-hot-toast";
+import { Helmet } from "react-helmet";
 
 const Decorations = () => {
   return (
-    <div>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Decorations</title>
+      </Helmet>
       <div>
         <Toaster position="top-center" />
       </div>
@@ -31,7 +36,7 @@ const Decorations = () => {
           })}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
