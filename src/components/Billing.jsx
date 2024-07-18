@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { MdClose } from "react-icons/md";
+import { MdClose, MdCurrencyRupee } from "react-icons/md";
 import {
   decrementQuantity,
   incrementQuantity,
@@ -17,7 +17,7 @@ function Billing({ handleCart }) {
   const totalAmount = cartData;
 
   return (
-    <div className="bg-white absolute top-0 right-0 h-[100vh] sm:w-1/3 w-[90vw] px-5 py-5 flex flex-col gap-3 justify-between">
+    <div className="bg-white absolute top-0 right-0 h-[100vh] sm:w-1/2 w-[90vw] px-5 py-5 flex flex-col gap-3 justify-between">
       <div className="flex items-center justify-between">
         <p className="text-xl blinker-semibold tracking-wide">
           Shopping Cart({cartSize})
@@ -41,7 +41,12 @@ function Billing({ handleCart }) {
 
       <div className="flex items-center gap-5">
         <p className="blinker-semibold text-lg">Subtotal</p>
-        <p>0</p>
+        <p className="blinker-semibold flex items-center text-lg">
+          <span>
+            <MdCurrencyRupee />
+          </span>
+          0
+        </p>
       </div>
     </div>
   );
@@ -71,7 +76,7 @@ function Cart({ cartData }) {
           className="w-24 h-24 object-fill rounded-md"
         />
         <div className="flex flex-col gap-3">
-          <p className="sm:max-w-16 md:max-w-20">{data.name}</p>
+          <p className="sm:max-w-16 md:max-w-32">{data.name}</p>
           <div className="flex items-center gap-5">
             <div className="flex items-center">
               <button

@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useState } from "react";
+import React, { useEffect, useLayoutEffect, useState } from "react";
 import { FaCartShopping } from "react-icons/fa6";
 import Billing from "./Billing";
 import Backdrop from "./Backdrop";
@@ -19,6 +19,18 @@ function Navbar() {
   function handleCart(click) {
     setOpen(click);
   }
+
+  useEffect(() => {
+    if (open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [open]);
 
   return (
     <>

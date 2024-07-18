@@ -9,7 +9,7 @@ export default function Household() {
     <div className="mx-5 my-10 mt-20 lg:mx-10" id="household">
       <div className="flex items-center justify-between">
         <p className="text-start text-2xl my-5 blinker-semibold">
-          Independence Day / Republic Day
+          Patriotic Goods
         </p>
 
         <Link to="/categories/tricolor">

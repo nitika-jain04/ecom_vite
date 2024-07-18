@@ -9,7 +9,7 @@ function Bangles() {
     <div className="mx-5 my-10 mt-20 lg:mx-10" id="household">
       <div className="flex items-center justify-between">
         <p className="text-start text-2xl my-5 blinker-semibold">
-          Handmade Silk Thread Bangles
+          Silk Thread Bangles
         </p>
 
         <Link to="/categories/bangles">
