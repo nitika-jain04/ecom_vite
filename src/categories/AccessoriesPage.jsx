@@ -21,7 +21,7 @@ const AccessoriesPage = () => {
 
         <ProductNav />
 
-        <div className="grid grid-cols-2 gap-5 lg:gap-10 md:flex md:flex-wrap justify-center">
+        <div className="grid grid-cols-2 gap-3 lg:gap-10 md:flex md:flex-wrap justify-center">
           {accessories.map((data, index) => {
             return (
               <div key={index}>
