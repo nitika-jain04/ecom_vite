@@ -6,10 +6,17 @@ import Products from "../components/Products";
 import ProductNav from "../components/ProductNav";
 import Navbar from "../components/Navbar";
 import { Toaster } from "react-hot-toast";
+import { Helmet } from "react-helmet";
 
 const AccessoriesPage = () => {
   return (
-    <div>
+    <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Accessories</title>
+        {/* <link rel="canonical" href="http://mysite.com/example" /> */}
+      </Helmet>
+
       <div>
         <Toaster position="top-center" />
       </div>
@@ -31,7 +38,7 @@ const AccessoriesPage = () => {
           })}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

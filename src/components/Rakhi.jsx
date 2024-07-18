@@ -6,16 +6,6 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 export default function Household() {
-  // function handleScroll(direction) {
-  //   const container = document.getElementById("products-page");
-  //   const scrollAmount =
-  //     direction === "left" ? -cardWidth - 10 : cardWidth + 10;
-  //   container.scrollBy({
-  //     left: scrollAmount,
-  //     behavior: "smooth",
-  //   });
-  //   setScrollX(scrollX + scrollAmount);
-  // }
   return (
     <div className="mx-5 my-10 mt-20 lg:mx-10" id="household">
       <div className="flex items-center justify-between">
@@ -40,7 +30,7 @@ export default function Household() {
       <div className="overflow-x-auto mx-5" id="products-page">
         <div className="flex space-x-8">
           {rakhi.slice(0, 6).map((data, index) => (
-            <Link href={`/product/${data.id}`} key={index}>
+            <Link to={`/product/${data.id}`} key={index}>
               <div
                 key={data.id}
                 className="flex-shrink-0 flex flex-col gap-5 items-center justify-center border-2 border-red-400 p-3 rounded-md snap-center transition-all 3s ease-in-out"
