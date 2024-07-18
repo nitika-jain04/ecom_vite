@@ -9,11 +9,14 @@ import { useParams } from "react-router-dom";
 import Navbar from "./Navbar";
 import toast, { Toaster } from "react-hot-toast";
 import { useDispatch } from "react-redux";
-import { addToCart } from "../../store/actions";
+import {
+  addToCart,
+  decrementQuantity,
+  incrementQuantity,
+} from "../../store/actions";
 
 function ProductPage() {
   const param = useParams();
-  const dispatch = useDispatch();
 
   const selectedProduct = allData.find((prod) => prod.id === +param.id);
 
@@ -45,34 +48,44 @@ function ProductCard({ selectedProduct }) {
 
       {selectedProduct.images ? <Carousel /> : ""}
 
-      <div className="flex flex-col md:flex-row gap-10 mx-10 md:mx-40 my-20">
+      <div className="flex items-center justify-center my-5">
+        <p className="blinker-semibold text-3xl">{selectedProduct.name}</p>
+      </div>
+
+      <div className="flex flex-col md:flex-row gap-5 mx-10 md:mx-40 my-10">
         <img
           src={selectedProduct.image}
           alt={selectedProduct.name}
-          height={250}
+          height={300}
           width={300}
           className="rounded-md self-center"
         />
 
         <div className="flex flex-col gap-5 items-center justify-start w-full md:w-1/2 my-5 md:my-10">
-          <p className="content-center blinker-semibold text-3xl">
-            {selectedProduct.name}
-          </p>
-
           <div className="flex gap-5">
-            <div className="flex items-center gap-5 text-xl border-2 border-red-500">
-              <button className="border-r-2 border-red-500 p-2 text-xl blinker-semibold">
+            {/* <div className="flex items-center gap-5 text-xl border-2 border-red-500">
+              <button
+                className="border-r-2 border-red-500 p-2 text-xl blinker-semibold"
+                m
+                onClick={() => dispatch(decrementQuantity(selectedProduct.id))}
+              >
                 -
               </button>
               <p className="blinker-semibold">
                 {selectedProduct.qty ? selectedProduct.qty : 1}
               </p>
-              <button className="border-l-2 border-red-500 p-2 text-xl blinker-semibold">
+              <button
+                className="border-l-2 border-red-500 p-2 text-xl blinker-semibold"
+                onClick={() => dispatch(incrementQuantity(selectedProduct.id))}
+              >
                 +
               </button>
-            </div>
+            </div> */}
 
-            <button className="text-lg blinker-semibold border-2 border-red-500 hover:border-black transition-all duration-300 ease-in p-2">
+            <button
+              className="text-lg blinker-semibold border-2 border-red-500 transition-all duration-300 ease-in p-2"
+              onClick={() => handleAddToCart()}
+            >
               Add to Cart
             </button>
           </div>

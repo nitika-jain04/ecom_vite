@@ -65,12 +65,12 @@ function HeroPage() {
   };
 
   return (
-    <div className="px-5 lg:px-10 py-5">
+    <div className="px-5 lg:px-10">
       <p className="text-center text-2xl blinker-semibold py-5 lg:text-start">
         VIEW BY CATEGORY
       </p>
 
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 items-center gap-5 lg:flex lg:flex-wrap">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 items-center gap-3 lg:flex lg:flex-wrap">
         {categories.map((category, index) => {
           return (
             <Link to={`/categories/${category.id}`} key={index}>

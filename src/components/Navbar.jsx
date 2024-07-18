@@ -16,7 +16,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="flex items-center justify-between bg-red-400 px-10 py-8 sticky top-0 z-50">
+    <nav className="flex items-center justify-between bg-red-400 p-8 sticky top-0 z-50">
       <Link to="/">
         <p className="text-lg text-gray-900 font-bold heading text-center">
           Home Mart

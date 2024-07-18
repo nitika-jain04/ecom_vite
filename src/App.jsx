@@ -25,7 +25,7 @@ function App() {
       <Hariyali />
       <Tricolor />
       <Bangles />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

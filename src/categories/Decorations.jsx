@@ -14,7 +14,7 @@ const Decorations = () => {
         <Toaster position="top-center" />
       </div>
       <Navbar />
-      <div className="mx-5 my-10 flex flex-col items-center gap-5 justify-evenly">
+      <div className="mx-3 my-5 flex flex-col items-center gap-5">
         <p className="text-center font-bold text-3xl blinker-semibold">
           Book your next Decoration with us!🎉🎊
         </p>

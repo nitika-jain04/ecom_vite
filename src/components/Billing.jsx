@@ -6,6 +6,9 @@ import {
   removeFromCart,
 } from "../../store/actions";
 import { MdDelete } from "react-icons/md";
+import { emptycart } from "../assets/img";
+import { Link } from "react-router-dom";
+// import { emptyCart } from "../assets"
 
 function Billing({ handleCart }) {
   const cart = useSelector((state) => state.cart);
@@ -13,12 +16,16 @@ function Billing({ handleCart }) {
   const cartSize = cart.totalCartSize;
 
   return (
-    <div className="bg-white absolute top-0 right-0 h-[100vh] sm:w-1/2 w-[90vw] px-10 py-5 flex flex-col gap-3 justify-between">
+    <div className="bg-white absolute top-0 right-0 h-[100vh] sm:w-1/3 w-[90vw] px-5 py-5 flex flex-col gap-3 justify-between">
       <div className="flex items-center justify-between">
-        <p className="text-2xl blinker-semibold tracking-wide">
-          Cart({cartSize})
+        <p className="text-xl blinker-semibold tracking-wide">
+          Shopping Cart({cartSize})
         </p>
-        <MdClose size={25} onClick={() => handleCart(false)} />
+        <MdClose
+          size={22}
+          onClick={() => handleCart(false)}
+          className="cursor-pointer"
+        />
       </div>
 
       <div className="min-h-[70vh] max-h-[70vh] flex flex-col gap-1 overflow-y-auto overscroll-none custom-scrollbar">
@@ -30,14 +37,22 @@ function Billing({ handleCart }) {
       </div>
 
       <div className="flex">
-        <p>Subtotal</p>
+        <p className="blinker-semibold text-lg">Subtotal</p>
       </div>
     </div>
   );
 }
 
 function EmptyCart() {
-  return <div>Empty Cart</div>;
+  return (
+    <div className="flex flex-col gap-3 justify-center items-center">
+      <img src={emptycart} alt="Empty Cart" height={150} width={150} />
+      <p className="blinker-semibold text-lg">Your cart is Empty</p>
+      <Link to="/">
+        <button className="border-red-400 border-2 p-1">Keep Browsing</button>
+      </Link>
+    </div>
+  );
 }
 
 function Cart({ cartData }) {
@@ -52,7 +67,7 @@ function Cart({ cartData }) {
           className="w-24 h-24 object-fill rounded-md"
         />
         <div className="flex flex-col gap-3">
-          <p className="">{data.name}</p>
+          <p className="sm:max-w-16 md:max-w-20">{data.name}</p>
           <div className="flex items-center gap-5">
             <div className="flex items-center">
               <button
@@ -69,13 +84,16 @@ function Cart({ cartData }) {
                 +
               </button>
             </div>
-            <div>{data.price && `${data.price}`}</div>
+            <div>{data.price && `${data.price * data.qty}`}</div>
           </div>
         </div>
       </div>
 
       <div>
-        <MdDelete onClick={() => dispatch(removeFromCart(data.id))} />
+        <MdDelete
+          onClick={() => dispatch(removeFromCart(data.id))}
+          className="cursor-pointer"
+        />
       </div>
     </div>
   ));
