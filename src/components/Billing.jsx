@@ -14,10 +14,13 @@ function Billing({ handleCart }) {
   const cartData = cart.cartItems;
   const cartSize = cart.totalCartSize;
 
-  const totalAmount = cartData;
+  const totalAmount = cartData.reduce(
+    (acc, item) => (acc += item.price * item.qty),
+    0
+  );
 
   return (
-    <div className="bg-white absolute top-0 right-0 h-[90vh] sm:w-1/2 w-[90vw] px-5 py-5 flex flex-col gap-3 justify-between">
+    <div className="bg-white absolute top-0 right-0 h-[100vh] sm:w-1/2 w-[90vw] px-5 py-5 flex flex-col gap-3 justify-between">
       <div className="flex items-center justify-between">
         <p className="text-xl blinker-semibold tracking-wide">
           Shopping Cart({cartSize})
@@ -29,7 +32,7 @@ function Billing({ handleCart }) {
         />
       </div>
 
-      <div className="min-h-[70vh] max-h-[70vh] flex flex-col gap-1 overflow-y-auto overscroll-none custom-scrollbar">
+      <div className="min-h-[60vh] max-h-[60vh] flex flex-col gap-1 overflow-y-auto overscroll-none custom-scrollbar">
         {cart && cartData.length > 0 ? (
           <Cart cartData={cartData} />
         ) : (
@@ -45,7 +48,7 @@ function Billing({ handleCart }) {
           <span>
             <MdCurrencyRupee />
           </span>
-          0
+          {totalAmount ? totalAmount : 0}
         </p>
       </div>
     </div>
