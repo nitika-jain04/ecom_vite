@@ -1037,13 +1037,13 @@ export const rakhi = [
     id: 409,
     name: "Kids Rakhi",
     image: "../../rakhi/kidsrakhi14.jpeg",
-    price: 80,
+    price: 110,
   },
   {
     id: 410,
     name: "Kids Rakhi",
     image: "../../rakhi/kidsrakhi15.jpeg",
-    price: 80,
+    price: 110,
   },
   {
     id: 411,
@@ -2897,13 +2897,13 @@ export const allData = [
     id: 409,
     name: "Kids Rakhi",
     image: "../../rakhi/kidsrakhi14.jpeg",
-    price: 80,
+    price: 110,
   },
   {
     id: 410,
     name: "Kids Rakhi",
     image: "../../rakhi/kidsrakhi15.jpeg",
-    price: 80,
+    price: 110,
   },
   {
     id: 411,
