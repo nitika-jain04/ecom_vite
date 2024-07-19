@@ -950,6 +950,78 @@ export const rakhi = [
   { id: 397, name: "Rakhi", image: "../../rakhi/rakhi107.jpeg", price: 90 },
   { id: 398, name: "Rakhi", image: "../../rakhi/rakhi108.jpeg", price: 90 },
   {
+    id: 412,
+    name: "Evil Eye Rakhi",
+    image: "../../rakhi/rakhi112.jpeg",
+    price: 90,
+  },
+  {
+    id: 409,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi109.jpeg",
+    price: 90,
+  },
+  {
+    id: 410,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi110.jpeg",
+    price: 90,
+  },
+  {
+    id: 411,
+    name: "Evil Eye Rakhi",
+    image: "../../rakhi/rakhi111.jpeg",
+    price: 90,
+  },
+  {
+    id: 413,
+    name: "Evil Eye Rakhi",
+    image: "../../rakhi/rakhi113.jpeg",
+    price: 90,
+  },
+  {
+    id: 414,
+    name: "Evil Eye Rakhi",
+    image: "../../rakhi/rakhi114.jpeg",
+    price: 90,
+  },
+  {
+    id: 415,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi115.jpeg",
+    price: 90,
+  },
+  {
+    id: 416,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi116.jpeg",
+    price: 90,
+  },
+  {
+    id: 417,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi117.jpeg",
+    price: 90,
+  },
+  {
+    id: 418,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi118.jpeg",
+    price: 90,
+  },
+  {
+    id: 419,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi119.jpeg",
+    price: 90,
+  },
+  {
+    id: 420,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi120.jpeg",
+    price: 90,
+  },
+  {
     id: 99,
     name: "Bhai Rakhi",
     image: "../../rakhi/rakhi8.jpeg",
@@ -1062,6 +1134,18 @@ export const rakhi = [
     name: "Kids Rakhi",
     image: "../../rakhi/kidsrakhi18.jpeg",
     price: 80,
+  },
+  {
+    id: 421,
+    name: "Kids Rakhi",
+    image: "../../rakhi/kidsrakhi18.jpeg",
+    price: 90,
+  },
+  {
+    id: 422,
+    name: "Kids Rakhi",
+    image: "../../rakhi/kidsrakhi18.jpeg",
+    price: 90,
   },
   {
     id: 279,
@@ -2846,6 +2930,78 @@ export const allData = [
   { id: 397, name: "Rakhi", image: "../../rakhi/rakhi107.jpeg", price: 120 },
   { id: 398, name: "Rakhi", image: "../../rakhi/rakhi108.jpeg", price: 120 },
   {
+    id: 412,
+    name: "Evil Eye Rakhi",
+    image: "../../rakhi/rakhi112.jpeg",
+    price: 90,
+  },
+  {
+    id: 409,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi109.jpeg",
+    price: 90,
+  },
+  {
+    id: 410,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi110.jpeg",
+    price: 90,
+  },
+  {
+    id: 411,
+    name: "Evil Eye Rakhi",
+    image: "../../rakhi/rakhi111.jpeg",
+    price: 90,
+  },
+  {
+    id: 413,
+    name: "Evil Eye Rakhi",
+    image: "../../rakhi/rakhi113.jpeg",
+    price: 90,
+  },
+  {
+    id: 414,
+    name: "Evil Eye Rakhi",
+    image: "../../rakhi/rakhi114.jpeg",
+    price: 90,
+  },
+  {
+    id: 415,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi115.jpeg",
+    price: 90,
+  },
+  {
+    id: 416,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi116.jpeg",
+    price: 90,
+  },
+  {
+    id: 417,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi117.jpeg",
+    price: 90,
+  },
+  {
+    id: 418,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi118.jpeg",
+    price: 90,
+  },
+  {
+    id: 419,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi119.jpeg",
+    price: 90,
+  },
+  {
+    id: 420,
+    name: "Rakhi",
+    image: "../../rakhi/rakhi120.jpeg",
+    price: 90,
+  },
+  {
     id: 102,
     name: "Cartoon Rakhi",
     image: "../../rakhi/kidsrakhi1.jpeg",
@@ -2922,6 +3078,18 @@ export const allData = [
     name: "Kids Rakhi",
     image: "../../rakhi/kidsrakhi18.jpeg",
     price: 80,
+  },
+  {
+    id: 421,
+    name: "Kids Rakhi",
+    image: "../../rakhi/kidsrakhi18.jpeg",
+    price: 90,
+  },
+  {
+    id: 422,
+    name: "Kids Rakhi",
+    image: "../../rakhi/kidsrakhi18.jpeg",
+    price: 90,
   },
   {
     id: 279,
@@ -3699,7 +3867,7 @@ export const allData = [
   },
 ];
 
-//414
+//423
 
 export const carousel = {
   name: "cara",
