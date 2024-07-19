@@ -23,7 +23,7 @@ function Billing({ handleCart }) {
     <div className="bg-white absolute top-0 right-0 h-[100vh] sm:w-1/2 w-[90vw] px-5 py-5 flex flex-col gap-5 justify-between">
       <div className="flex items-center justify-between">
         <p className="text-xl blinker-semibold tracking-wide">
-          Shopping Cart({cartSize})
+          Shopping Cart ({cartSize})
         </p>
         <MdClose
           size={22}

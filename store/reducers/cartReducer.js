@@ -25,7 +25,7 @@ const cartReducer = (state = initialState, action) => {
 
       state.cartItems = newCartItems;
       state.totalCartSize++;
-      console.log(state.cartItems);
+      // console.log(state.cartItems);
       return { ...state };
     }
 
@@ -50,7 +50,7 @@ const cartReducer = (state = initialState, action) => {
         if (item.id === action.payload) {
           return { ...item, qty: item.qty + 1 };
         }
-        console.log("increment", item.qty);
+        // console.log("increment", item.qty);
         return item;
       });
 
@@ -64,7 +64,7 @@ const cartReducer = (state = initialState, action) => {
         if (item.id === action.payload) {
           return { ...item, qty: item.qty - 1 };
         }
-        console.log("decrement", item.qty);
+        // console.log("decrement", item.qty);
         return item;
       });
 

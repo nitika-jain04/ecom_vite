@@ -15,3 +15,11 @@ export const incrementQuantity = (value) => {
 export const decrementQuantity = (value) => {
   return { type: actionType.DECREMENTQUANTITY, payload: value };
 };
+
+export const addToWishlist = (value) => {
+  return { type: actionType.ADDTOWISHLIST, payload: value };
+};
+
+export const removeFromWishlist = (value) => {
+  return { type: actionType.REMOVEFROMWISHLIST, payload: value };
+};
