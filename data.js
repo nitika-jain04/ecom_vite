@@ -988,37 +988,37 @@ export const rakhi = [
   {
     id: 415,
     name: "Rakhi",
-    image: "../../rakhi/rakhi115.jpeg",
+    image: "../../rakhi/rakhi415.jpeg",
     price: 90,
   },
   {
     id: 416,
     name: "Rakhi",
-    image: "../../rakhi/rakhi116.jpeg",
+    image: "../../rakhi/rakhi416.jpeg",
     price: 90,
   },
   {
     id: 417,
     name: "Rakhi",
-    image: "../../rakhi/rakhi117.jpeg",
+    image: "../../rakhi/rakhi417.jpeg",
     price: 90,
   },
   {
     id: 418,
     name: "Rakhi",
-    image: "../../rakhi/rakhi118.jpeg",
+    image: "../../rakhi/rakhi418.jpeg",
     price: 90,
   },
   {
     id: 419,
     name: "Rakhi",
-    image: "../../rakhi/rakhi119.jpeg",
+    image: "../../rakhi/rakhi419.jpeg",
     price: 90,
   },
   {
     id: 420,
     name: "Rakhi",
-    image: "../../rakhi/rakhi120.jpeg",
+    image: "../../rakhi/rakhi420.jpeg",
     price: 90,
   },
   {
