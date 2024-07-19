@@ -835,7 +835,7 @@ export const rakhi = [
     id: 328,
     name: "Rakhi",
     image: "../../rakhi/rakhi42.jpeg",
-    price: 90,
+    price: 60,
   },
   {
     id: 329,
@@ -2717,7 +2717,7 @@ export const allData = [
     id: 328,
     name: "Rakhi",
     image: "../../rakhi/rakhi42.jpeg",
-    price: 90,
+    price: 60,
   },
   {
     id: 329,
