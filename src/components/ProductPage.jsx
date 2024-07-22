@@ -1,6 +1,3 @@
-// import { Toaster } from "react-hot-toast";
-import { FaPlus } from "react-icons/fa";
-import { FaMinus } from "react-icons/fa";
 import { allData } from "../../data";
 import { MdCurrencyRupee } from "react-icons/md";
 import Carousel from "../components/Carousel";
@@ -8,11 +5,7 @@ import { useParams } from "react-router-dom";
 import Navbar from "./Navbar";
 import toast, { Toaster } from "react-hot-toast";
 import { useDispatch } from "react-redux";
-import {
-  addToCart,
-  decrementQuantity,
-  incrementQuantity,
-} from "../../store/actions";
+import { addToCart } from "../../store/actions";
 
 function ProductPage() {
   const param = useParams();
