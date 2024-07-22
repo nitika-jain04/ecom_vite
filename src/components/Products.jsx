@@ -40,11 +40,11 @@ const Products = ({ data }) => {
       if (newClicked) {
         dispatch(addToWishlist(data));
         toast.success("Wishlisted ❤️");
-        console.log("added");
+        // console.log("added");
       } else {
         dispatch(removeFromWishlist(data.id));
         toast.success("Removed from Wishlist");
-        console.log("removed");
+        // console.log("removed");
       }
 
       console.log(newClicked);
@@ -53,7 +53,7 @@ const Products = ({ data }) => {
   }
 
   return (
-    <div className="flex flex-col justify-center gap-5 drop-shadow-lg shadow-red-500 p-3 rounded-md bg-purple-50 min-h-80 max-h-80 w-[160px]">
+    <div className="flex flex-col justify-center gap-5 drop-shadow-lg shadow-red-500 py-3 px-2 rounded-md bg-purple-50 min-h-80 max-h-80 w-[160px]">
       <Link to={`/product/${data.id}`}>
         <img
           src={data.image}
