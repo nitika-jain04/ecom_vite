@@ -993,7 +993,7 @@ export const rakhi = [
     image: "../../rakhi/rakhi31.jpeg",
     price: 65,
   },
-  { id: 375, name: "Pair Rakhi", image: "../../rakhi/rakhi85.jpeg", price: 80 },
+  { id: 375, name: "Rakhi", image: "../../rakhi/rakhi85.jpeg", price: 80 },
   {
     id: 318,
     name: "Rakhi",
