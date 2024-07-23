@@ -180,6 +180,24 @@ export const household = [
     price: 200,
   },
   {
+    id: 427,
+    name: "66Ltr Bag",
+    image: "../../household/bag1.jpeg",
+    price: 350,
+  },
+  {
+    id: 429,
+    name: "26Ltr Bag",
+    image: "../../household/bag2.jpeg",
+    price: 220,
+  },
+  {
+    id: 428,
+    name: "Drawer Organiser",
+    image: "../../household/bag2.jpeg",
+    price: 70,
+  },
+  {
     id: 29,
     name: "Under-Garments Bag",
     image: "../../household/ug.jpeg",
@@ -252,9 +270,21 @@ export const household = [
     price: 300,
   },
   {
+    id: 434,
+    name: "Potato Masher",
+    image: "../../household/masher.jpeg",
+    price: 280,
+  },
+  {
     id: 40,
     name: "Dry-Fruit Cutter",
     image: "../../household/dryfruit-cutter.jpeg",
+    price: 120,
+  },
+  {
+    id: 431,
+    name: "Coffee Beater",
+    image: "../../household/beater1.jpeg",
     price: 120,
   },
   {
@@ -304,6 +334,12 @@ export const household = [
     name: "Adhesive Hook",
     image: "../../household/Adhesive-hook.jpeg",
     price: 135,
+  },
+  {
+    id: 430,
+    name: "Adhesive Hook(10pcs)",
+    image: "../../household/hook.jpeg",
+    price: 70,
   },
   {
     id: 50,
@@ -360,6 +396,12 @@ export const household = [
     price: 280,
   },
   {
+    id: 432,
+    name: "Weighing Scale",
+    image: "../../household/weigh.jpeg",
+    price: 250,
+  },
+  {
     id: 59,
     name: "Clip Rope",
     image: "../../household/rope.jpeg",
@@ -370,6 +412,18 @@ export const household = [
     name: "Rechargable Lighter",
     image: "../../household/lighter.jpeg",
     price: 300,
+  },
+  {
+    id: 344,
+    name: "Car WindScreen Cover",
+    image: "../../household/car-shield.jpeg",
+    price: 240,
+  },
+  {
+    id: 433,
+    name: "Car Foam Cleaner",
+    image: "../../household/car.jpeg",
+    price: 250,
   },
 ];
 
@@ -1711,12 +1765,19 @@ export const kids = [
   { id: 155, name: "Toy", image: "../../kids/piggy-bank2.jpeg" },
   { id: 156, name: "Toy", image: "../../kids/piggy-bank3.jpeg" },
   { id: 157, name: "Toy", image: "../../kids/tiffin1.jpeg" },
+  { id: 424, name: "Tiffin", image: "../../kids/tiffin2.jpeg" },
+  { id: 425, name: "Tiffin", image: "../../kids/tiffin3.jpeg" },
   { id: 158, name: "Toy", image: "../../kids/pen1.jpeg" },
   { id: 159, name: "Toy", image: "../../kids/pen2.jpeg" },
   { id: 160, name: "Toy", image: "../../kids/pen3.jpeg" },
   { id: 161, name: "Toy", image: "../../kids/clock.jpeg" },
   { id: 162, name: "Toy", image: "../../kids/box1.jpeg" },
   { id: 163, name: "Toy", image: "../../kids/bottle1.jpeg" },
+  {
+    id: 426,
+    name: "Water Bubble Machine",
+    image: "../../kids/bubblemchn.jpeg",
+  },
 ];
 
 export const personalised = [
@@ -2316,6 +2377,24 @@ export const allData = [
     price: 200,
   },
   {
+    id: 427,
+    name: "66Ltr Bag",
+    image: "../../household/bag1.jpeg",
+    price: 350,
+  },
+  {
+    id: 429,
+    name: "26Ltr Bag",
+    image: "../../household/bag2.jpeg",
+    price: 220,
+  },
+  {
+    id: 428,
+    name: "Drawer Organiser",
+    image: "../../household/bag2.jpeg",
+    price: 70,
+  },
+  {
     id: 29,
     name: "Under-Garments Bag",
     image: "../../household/ug.jpeg",
@@ -2388,9 +2467,21 @@ export const allData = [
     price: 300,
   },
   {
+    id: 434,
+    name: "Potato Masher",
+    image: "../../household/masher.jpeg",
+    price: 280,
+  },
+  {
     id: 40,
     name: "Dry-Fruit Cutter",
     image: "../../household/dryfruit-cutter.jpeg",
+    price: 120,
+  },
+  {
+    id: 431,
+    name: "Coffee Beater",
+    image: "../../household/beater1.jpeg",
     price: 120,
   },
   {
@@ -2440,6 +2531,12 @@ export const allData = [
     name: "Adhesive Hook",
     image: "../../household/Adhesive-hook.jpeg",
     price: 135,
+  },
+  {
+    id: 430,
+    name: "Adhesive Hook(10pcs)",
+    image: "../../household/hook.jpeg",
+    price: 70,
   },
   {
     id: 50,
@@ -2496,6 +2593,12 @@ export const allData = [
     price: 280,
   },
   {
+    id: 432,
+    name: "Weighing Scale",
+    image: "../../household/weigh.jpeg",
+    price: 250,
+  },
+  {
     id: 59,
     name: "Clip Rope",
     image: "../../household/rope.jpeg",
@@ -2512,6 +2615,12 @@ export const allData = [
     name: "Car WindScreen Cover",
     image: "../../household/car-shield.jpeg",
     price: 240,
+  },
+  {
+    id: 433,
+    name: "Car Foam Cleaner",
+    image: "../../household/car.jpeg",
+    price: 250,
   },
   {
     id: 61,
@@ -3507,13 +3616,20 @@ export const allData = [
   { id: 154, name: "Toy", image: "../../kids/piggy-bank1.jpeg" },
   { id: 155, name: "Toy", image: "../../kids/piggy-bank2.jpeg" },
   { id: 156, name: "Toy", image: "../../kids/piggy-bank3.jpeg" },
-  { id: 157, name: "Toy", image: "../../kids/tiffin1.jpeg" },
+  { id: 157, name: "Tiffin", image: "../../kids/tiffin1.jpeg" },
+  { id: 424, name: "Tiffin", image: "../../kids/tiffin2.jpeg" },
+  { id: 425, name: "Tiffin", image: "../../kids/tiffin3.jpeg" },
   { id: 158, name: "Toy", image: "../../kids/pen1.jpeg" },
   { id: 159, name: "Toy", image: "../../kids/pen2.jpeg" },
   { id: 160, name: "Toy", image: "../../kids/pen3.jpeg" },
   { id: 161, name: "Toy", image: "../../kids/clock.jpeg" },
   { id: 162, name: "Toy", image: "../../kids/box1.jpeg" },
   { id: 163, name: "Toy", image: "../../kids/bottle1.jpeg" },
+  {
+    id: 426,
+    name: "Water Bubble Machine",
+    image: "../../kids/bubblemchn.jpeg",
+  },
   {
     id: 164,
     name: "Clip",
