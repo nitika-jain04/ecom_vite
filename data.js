@@ -780,7 +780,7 @@ export const rakhi = [
     id: 82,
     name: "Pair Rakhi",
     image: "../../rakhi/pairrakhi9.jpeg",
-    price: 175,
+    price: 160,
   },
   {
     id: 337,
@@ -1142,7 +1142,12 @@ export const rakhi = [
     price: 120,
   },
   { id: 396, name: "Rakhi", image: "../../rakhi/rakhi106.jpeg", price: 90 },
-  { id: 397, name: "Rakhi", image: "../../rakhi/rakhi107.jpeg", price: 90 },
+  {
+    id: 397,
+    name: "Sikh Rakhi",
+    image: "../../rakhi/rakhi107.jpeg",
+    price: 90,
+  },
   { id: 398, name: "Rakhi", image: "../../rakhi/rakhi108.jpeg", price: 90 },
   {
     id: 409,
@@ -1772,6 +1777,7 @@ export const kids = [
   { id: 160, name: "Toy", image: "../../kids/pen3.jpeg" },
   { id: 161, name: "Toy", image: "../../kids/clock.jpeg" },
   { id: 162, name: "Toy", image: "../../kids/box1.jpeg" },
+  { id: 461, name: "Toy", image: "../../kids/pencil.jpeg" },
   { id: 163, name: "Toy", image: "../../kids/bottle1.jpeg" },
   {
     id: 426,
@@ -1872,12 +1878,6 @@ export const personalised = [
     // price: "200",
   },
   {
-    id: 440,
-    name: "Personalised",
-    image: "../../personalised/frame16.jpeg",
-    // price: "200",
-  },
-  {
     id: 441,
     name: "Personalised",
     image: "../../personalised/frame17.jpeg",
@@ -1890,12 +1890,6 @@ export const personalised = [
     // price: "200",
   },
   {
-    id: 443,
-    name: "Personalised",
-    image: "../../personalised/frame19.jpeg",
-    // price: "200",
-  },
-  {
     id: 444,
     name: "Personalised",
     image: "../../personalised/frame20.jpeg",
@@ -1905,12 +1899,6 @@ export const personalised = [
     id: 445,
     name: "Personalised",
     image: "../../personalised/frame21.jpeg",
-    // price: "200",
-  },
-  {
-    id: 446,
-    name: "Personalised",
-    image: "../../personalised/frame22.jpeg",
     // price: "200",
   },
   {
@@ -3331,7 +3319,7 @@ export const allData = [
     image: "../../rakhi/rakhi54.jpeg",
     price: 180,
   },
-  { id: 362, name: "Rakhi", image: "../../rakhi/rakhi72.jpeg", price: 180 },
+  { id: 362, name: "Rakhi", image: "../../rakhi/rakhi72.jpeg", price: 160 },
   { id: 363, name: "Rakhi", image: "../../rakhi/rakhi73.jpeg", price: 160 },
   { id: 366, name: "Rakhi", image: "../../rakhi/rakhi76.jpeg", price: 160 },
   { id: 367, name: "Rakhi", image: "../../rakhi/rakhi77.jpeg", price: 160 },
@@ -3342,9 +3330,9 @@ export const allData = [
   { id: 372, name: "Rakhi", image: "../../rakhi/rakhi82.jpeg", price: 160 },
   { id: 373, name: "Rakhi", image: "../../rakhi/rakhi83.jpeg", price: 160 },
   { id: 374, name: "Rakhi", image: "../../rakhi/rakhi84.jpeg", price: 160 },
-  { id: 375, name: "Rakhi", image: "../../rakhi/rakhi85.jpeg", price: 160 },
+  { id: 375, name: "Rakhi", image: "../../rakhi/rakhi85.jpeg", price: 80 },
   { id: 376, name: "Rakhi", image: "../../rakhi/rakhi86.jpeg", price: 160 },
-  { id: 377, name: "Rakhi", image: "../../rakhi/rakhi87.jpeg", price: 180 },
+  { id: 377, name: "Rakhi", image: "../../rakhi/rakhi87.jpeg", price: 80 },
   { id: 378, name: "Rakhi", image: "../../rakhi/rakhi88.jpeg", price: 180 },
   {
     id: 379,
@@ -3394,8 +3382,13 @@ export const allData = [
     price: 120,
   },
   { id: 396, name: "Rakhi", image: "../../rakhi/rakhi106.jpeg", price: 120 },
-  { id: 397, name: "Rakhi", image: "../../rakhi/rakhi107.jpeg", price: 120 },
-  { id: 398, name: "Rakhi", image: "../../rakhi/rakhi108.jpeg", price: 120 },
+  {
+    id: 397,
+    name: "Sikh Rakhi",
+    image: "../../rakhi/rakhi107.jpeg",
+    price: 90,
+  },
+  { id: 398, name: "Rakhi", image: "../../rakhi/rakhi108.jpeg", price: 90 },
   {
     id: 409,
     name: "Rakhi",
@@ -3770,6 +3763,7 @@ export const allData = [
   { id: 160, name: "Toy", image: "../../kids/pen3.jpeg" },
   { id: 161, name: "Toy", image: "../../kids/clock.jpeg" },
   { id: 162, name: "Toy", image: "../../kids/box1.jpeg" },
+  { id: 461, name: "Toy", image: "../../kids/pencil.jpeg" },
   { id: 163, name: "Toy", image: "../../kids/bottle1.jpeg" },
   {
     id: 426,
@@ -4077,12 +4071,6 @@ export const allData = [
     // price: "200",
   },
   {
-    id: 440,
-    name: "Personalised",
-    image: "../../personalised/frame16.jpeg",
-    // price: "200",
-  },
-  {
     id: 441,
     name: "Personalised",
     image: "../../personalised/frame17.jpeg",
@@ -4095,12 +4083,6 @@ export const allData = [
     // price: "200",
   },
   {
-    id: 443,
-    name: "Personalised",
-    image: "../../personalised/frame19.jpeg",
-    // price: "200",
-  },
-  {
     id: 444,
     name: "Personalised",
     image: "../../personalised/frame20.jpeg",
@@ -4110,12 +4092,6 @@ export const allData = [
     id: 445,
     name: "Personalised",
     image: "../../personalised/frame21.jpeg",
-    // price: "200",
-  },
-  {
-    id: 446,
-    name: "Personalised",
-    image: "../../personalised/frame22.jpeg",
     // price: "200",
   },
   {
@@ -4505,4 +4481,21 @@ export const allData = [
   },
 ];
 
-//461
+//462
+
+export const carousel = {
+  name: "cara",
+  images: [
+    "../../kids/toy3.jpeg",
+    "../../kids/toy4.jpeg",
+    "../../kids/toy5.jpeg",
+    "../../kids/toy6.jpeg",
+  ],
+  name: "carousel",
+  images: [
+    "../../kids/toy3.jpeg",
+    "../../kids/toy4.jpeg",
+    "../../kids/toy5.jpeg",
+    "../../kids/toy6.jpeg",
+  ],
+};
