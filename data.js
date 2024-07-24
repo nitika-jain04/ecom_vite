@@ -330,6 +330,12 @@ export const household = [
     price: 200,
   },
   {
+    id: 478,
+    name: "360° Night Lamp Projector",
+    image: "../../household/light.jpeg",
+    price: 290,
+  },
+  {
     id: 49,
     name: "Adhesive Hook",
     image: "../../household/Adhesive-hook.jpeg",
@@ -388,6 +394,12 @@ export const household = [
     name: "Mat(6 pcs set)",
     image: "../../household/mat4.jpeg",
     price: 200,
+  },
+  {
+    id: 479,
+    name: "Water Absorbing Mat",
+    image: "../../household/mat5.jpeg",
+    price: 170,
   },
   {
     id: 58,
@@ -548,6 +560,42 @@ export const pooja = [
 ];
 
 export const rakhi = [
+  {
+    id: 462,
+    name: "Rakhi Hamper",
+    image: "../../rakhi/hamper1.jpeg",
+    price: 1100,
+  },
+  {
+    id: 463,
+    name: "Rakhi Hamper",
+    image: "../../rakhi/hamper2.jpeg",
+    price: 1100,
+  },
+  {
+    id: 464,
+    name: "Rakhi Hamper",
+    image: "../../rakhi/hamper3.jpeg",
+    price: 1299,
+  },
+  {
+    id: 465,
+    name: "Rakhi Hamper",
+    image: "../../rakhi/hamper4.jpeg",
+    price: 699,
+  },
+  {
+    id: 466,
+    name: "Rakhi Hamper",
+    image: "../../rakhi/hamper5.jpeg",
+    price: 1399,
+  },
+  {
+    id: 467,
+    name: "Rakhi Hamper",
+    image: "../../rakhi/hamper6.jpeg",
+    price: 499,
+  },
   {
     id: 72,
     name: "Soan Pair",
@@ -1765,16 +1813,27 @@ export const kids = [
   { id: 150, name: "Toy", image: "../../kids/toy28.jpeg" },
   { id: 151, name: "Toy", image: "../../kids/toy29.jpeg" },
   { id: 152, name: "Toy", image: "../../kids/toy30.jpeg" },
+  { id: 474, name: "Toy", image: "../../kids/toy31.jpeg" },
+  { id: 475, name: "Toy", image: "../../kids/toy32.jpeg" },
+  { id: 476, name: "Toy", image: "../../kids/toy33.jpeg" },
+  { id: 477, name: "Toy", image: "../../kids/toy34.jpeg" },
   { id: 157, name: "Toy", image: "../../kids/tiffin1.jpeg" },
   { id: 424, name: "Tiffin", image: "../../kids/tiffin2.jpeg" },
   { id: 425, name: "Tiffin", image: "../../kids/tiffin3.jpeg" },
+  { id: 468, name: "Tiffin", image: "../../kids/lunch2.jpeg" },
+  { id: 469, name: "Tiffin", image: "../../kids/lunch3.jpeg" },
+  { id: 470, name: "Tiffin", image: "../../kids/lunch4.jpeg" },
+  { id: 471, name: "Tiffin", image: "../../kids/lunch5.jpeg" },
   { id: 158, name: "Toy", image: "../../kids/pen1.jpeg" },
   { id: 159, name: "Toy", image: "../../kids/pen2.jpeg" },
   { id: 160, name: "Toy", image: "../../kids/pen3.jpeg" },
+  { id: 472, name: "Touch Cool Marker", image: "../../kids/pen4.jpeg" },
   { id: 161, name: "Toy", image: "../../kids/clock.jpeg" },
   { id: 162, name: "Toy", image: "../../kids/box1.jpeg" },
   { id: 461, name: "Toy", image: "../../kids/pencil.jpeg" },
+
   { id: 163, name: "Toy", image: "../../kids/bottle1.jpeg" },
+  { id: 473, name: "Toy", image: "../../kids/bottle.jpeg" },
   {
     id: 426,
     name: "Water Bubble Machine",
@@ -1783,6 +1842,11 @@ export const kids = [
 ];
 
 export const personalised = [
+  {
+    id: 480,
+    name: "Initial DIY Kit",
+    image: "../../personalised/name-kit.jpeg",
+  },
   {
     id: 208,
     name: "Personalised",
@@ -2657,6 +2721,12 @@ export const allData = [
     price: 200,
   },
   {
+    id: 478,
+    name: "360° Night Lamp Projector",
+    image: "../../household/light.jpeg",
+    price: 290,
+  },
+  {
     id: 49,
     name: "Adhesive Hook",
     image: "../../household/Adhesive-hook.jpeg",
@@ -2715,6 +2785,12 @@ export const allData = [
     name: "Mat(6 pcs set)",
     image: "../../household/mat4.jpeg",
     price: 200,
+  },
+  {
+    id: 479,
+    name: "Mat",
+    image: "../../household/mat5.jpeg",
+    price: 170,
   },
   {
     id: 58,
@@ -2803,6 +2879,42 @@ export const allData = [
     name: "Soan Pair",
     image: "../../rakhi/godrakhi.jpeg",
     price: "50",
+  },
+  {
+    id: 462,
+    name: "Rakhi Hamper",
+    image: "../../rakhi/hamper1.jpeg",
+    price: 1100,
+  },
+  {
+    id: 463,
+    name: "Rakhi Hamper",
+    image: "../../rakhi/hamper2.jpeg",
+    price: 1100,
+  },
+  {
+    id: 464,
+    name: "Rakhi Hamper",
+    image: "../../rakhi/hamper3.jpeg",
+    price: 1299,
+  },
+  {
+    id: 465,
+    name: "Rakhi Hamper",
+    image: "../../rakhi/hamper4.jpeg",
+    price: 699,
+  },
+  {
+    id: 466,
+    name: "Rakhi Hamper",
+    image: "../../rakhi/hamper5.jpeg",
+    price: 1399,
+  },
+  {
+    id: 467,
+    name: "Rakhi Hamper",
+    image: "../../rakhi/hamper6.jpeg",
+    price: 499,
   },
   {
     id: 345,
@@ -3747,16 +3859,26 @@ export const allData = [
   { id: 150, name: "Toy", image: "../../kids/toy28.jpeg" },
   { id: 151, name: "Toy", image: "../../kids/toy29.jpeg" },
   { id: 152, name: "Toy", image: "../../kids/toy30.jpeg" },
+  { id: 474, name: "Toy", image: "../../kids/toy31.jpeg" },
+  { id: 475, name: "Toy", image: "../../kids/toy32.jpeg" },
+  { id: 476, name: "Toy", image: "../../kids/toy33.jpeg" },
+  { id: 477, name: "Toy", image: "../../kids/toy34.jpeg" },
   { id: 157, name: "Tiffin", image: "../../kids/tiffin1.jpeg" },
   { id: 424, name: "Tiffin", image: "../../kids/tiffin2.jpeg" },
   { id: 425, name: "Tiffin", image: "../../kids/tiffin3.jpeg" },
+  { id: 468, name: "Tiffin", image: "../../kids/lunch2.jpeg" },
+  { id: 469, name: "Tiffin", image: "../../kids/lunch3.jpeg" },
+  { id: 470, name: "Tiffin", image: "../../kids/lunch4.jpeg" },
+  { id: 471, name: "Tiffin", image: "../../kids/lunch5.jpeg" },
   { id: 158, name: "Toy", image: "../../kids/pen1.jpeg" },
   { id: 159, name: "Toy", image: "../../kids/pen2.jpeg" },
   { id: 160, name: "Toy", image: "../../kids/pen3.jpeg" },
+  { id: 472, name: "Toy", image: "../../kids/pen4.jpeg" },
   { id: 161, name: "Toy", image: "../../kids/clock.jpeg" },
   { id: 162, name: "Toy", image: "../../kids/box1.jpeg" },
   { id: 461, name: "Toy", image: "../../kids/pencil.jpeg" },
   { id: 163, name: "Toy", image: "../../kids/bottle1.jpeg" },
+  { id: 473, name: "Toy", image: "../../kids/bottle.jpeg" },
   {
     id: 426,
     name: "Water Bubble Machine",
@@ -3981,6 +4103,11 @@ export const allData = [
     id: 207,
     name: "Tri-Color Dupatta",
     image: "../../tricolor/tri-dupatta.jpeg",
+  },
+  {
+    id: 480,
+    name: "Initial DIY Kit",
+    image: "../../personalised/name-kit.jpeg",
   },
   {
     id: 208,
@@ -4473,7 +4600,7 @@ export const allData = [
   },
 ];
 
-//462
+//481
 
 export const carousel = {
   name: "cara",
