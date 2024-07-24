@@ -1845,7 +1845,7 @@ export const personalised = [
   {
     id: 480,
     name: "Initial DIY Kit",
-    image: "../../personalised/name-kit.jpeg",
+    image: "../../personalised/name-kit.jpg",
   },
   {
     id: 208,
