@@ -240,6 +240,12 @@ export const household = [
     price: 330,
   },
   {
+    id: 487,
+    name: "Bottle Umbrella",
+    image: "../../household/bottle-umbr.jpeg",
+    price: 310,
+  },
+  {
     id: 36,
     name: "Kids Umbrella",
     image: "../../household/kids.jpeg",
@@ -631,6 +637,12 @@ export const rakhi = [
     name: "Rakhi Gift Set",
     image: "../../rakhi/hamper9.jpeg",
     price: "499",
+  },
+  {
+    id: 488,
+    name: "Rakhi Gift Set",
+    image: "../../rakhi/hamper10.jpeg",
+    price: "799",
   },
   {
     id: 72,
@@ -1282,12 +1294,6 @@ export const rakhi = [
     price: 90,
   },
   {
-    id: 420,
-    name: "Rakhi",
-    image: "../../rakhi/rakhi420.jpeg",
-    price: 90,
-  },
-  {
     id: 99,
     name: "Bhai Rakhi",
     image: "../../rakhi/rakhi8.jpeg",
@@ -1310,6 +1316,24 @@ export const rakhi = [
     name: "Cartoon Rakhi",
     image: "../../rakhi/kidsrakhi1.jpeg",
     price: 160,
+  },
+  {
+    id: 489,
+    name: "Kids Rakhi",
+    image: "../../rakhi/rakhi421.jpeg",
+    price: 200,
+  },
+  {
+    id: 490,
+    name: "Kids Rakhi",
+    image: "../../rakhi/rakhi422.jpeg",
+    price: 200,
+  },
+  {
+    id: 491,
+    name: "Kids Rakhi",
+    image: "../../rakhi/rakhi423.jpeg",
+    price: 200,
   },
   {
     id: 103,
@@ -1903,6 +1927,25 @@ export const personalised = [
     id: 480,
     name: "Initial DIY Kit",
     image: "../../personalised/name-kit.jpg",
+    price: 320,
+  },
+  {
+    id: 484,
+    name: "Name Magnet",
+    image: "../../personalised/name.jpeg",
+    price: 220,
+  },
+  {
+    id: 485,
+    name: "Baby Hamper Set",
+    image: "../../personalised/baby.jpeg",
+    price: 799,
+  },
+  {
+    id: 486,
+    name: "Bottle & Drawing Set",
+    image: "../../personalised/student.jpeg",
+    price: 799,
   },
   {
     id: 208,
@@ -2022,7 +2065,7 @@ export const personalised = [
     id: 447,
     name: "Personalised",
     image: "../../personalised/frame23.jpeg",
-    // price: "200",
+    price: 499,
   },
   {
     id: 448,
@@ -2670,6 +2713,12 @@ export const allData = [
     price: 330,
   },
   {
+    id: 487,
+    name: "Bottle Umbrella",
+    image: "../../household/bottle-umbr.jpeg",
+    price: 310,
+  },
+  {
     id: 36,
     name: "Kids Umbrella",
     image: "../../household/kids.jpeg",
@@ -2990,6 +3039,12 @@ export const allData = [
     name: "Rakhi Gift Set",
     image: "../../rakhi/hamper9.jpeg",
     price: "499",
+  },
+  {
+    id: 488,
+    name: "Rakhi Gift Set",
+    image: "../../rakhi/hamper10.jpeg",
+    price: "799",
   },
   {
     id: 345,
@@ -3639,6 +3694,24 @@ export const allData = [
     price: "160",
   },
   {
+    id: 489,
+    name: "Kids Rakhi",
+    image: "../../rakhi/rakhi421.jpeg",
+    price: 200,
+  },
+  {
+    id: 490,
+    name: "Kids Rakhi",
+    image: "../../rakhi/rakhi422.jpeg",
+    price: 200,
+  },
+  {
+    id: 491,
+    name: "Kids Rakhi",
+    image: "../../rakhi/rakhi423.jpeg",
+    price: 200,
+  },
+  {
     id: 277,
     name: "Cartoon Rakhi",
     image: "../../rakhi/kidsrakhi6.jpeg",
@@ -4197,7 +4270,26 @@ export const allData = [
   {
     id: 480,
     name: "Initial DIY Kit",
-    image: "../../personalised/name-kit.jpeg",
+    image: "../../personalised/name-kit.jpg",
+    price: 320,
+  },
+  {
+    id: 484,
+    name: "Name Magnet",
+    image: "../../personalised/name.jpeg",
+    price: 220,
+  },
+  {
+    id: 485,
+    name: "Baby Hamper Set",
+    image: "../../personalised/baby.jpeg",
+    price: 799,
+  },
+  {
+    id: 486,
+    name: "Bottle & Drawing Set",
+    image: "../../personalised/student.jpeg",
+    price: 799,
   },
   {
     id: 208,
@@ -4307,7 +4399,7 @@ export const allData = [
     id: 447,
     name: "Personalised",
     image: "../../personalised/frame23.jpeg",
-    // price: "200",
+    price: 499,
   },
   {
     id: 448,
