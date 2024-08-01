@@ -6,52 +6,52 @@ function HeroPage() {
   const categories = [
     {
       cateName: "Rakhi",
-      img: "../../hero/rakhi-gif.gif",
+      img: "../../hero/rakhi.gif",
       id: "rakhi",
     },
     {
       cateName: "Tricolor",
-      img: "../../hero/tri-gif.gif",
+      img: "../../hero/tri.gif",
       id: "tricolor",
     },
     {
       cateName: "Household & Kitchen",
-      img: "../../hero/house-gif.gif",
+      img: "../../hero/household.gif",
       id: "household",
     },
     {
       cateName: "Kids Accessories",
-      img: "../../hero/acc-gif.gif",
+      img: "../../hero/accessories.gif",
       id: "accessories",
     },
     {
       cateName: "Kids Gift Items",
-      img: "../../hero/kids-gif.gif",
+      img: "../../hero/kids.gif",
       id: "kids",
     },
     {
       cateName: "Bangles",
-      img: "../../hero/bangles-gif.gif",
+      img: "../../hero/bangles.gif",
       id: "bangles",
     },
     {
       cateName: "Hariyali Teej",
-      img: "../../hero/hari-gif.gif",
+      img: "../../hero/hariyali.gif",
       id: "hariyali",
     },
     {
       cateName: "Personalised",
-      img: "../../hero/perso-gif.gif",
+      img: "../../hero/perso.gif",
       id: "personalised",
     },
     {
       cateName: "Pooja Essentials",
-      img: "../../hero/pooja-gif.gif",
+      img: "../../hero/pooja.gif",
       id: "pooja",
     },
     {
       cateName: "Party Decorations",
-      img: "../../hero/dec-gif.gif",
+      img: "../../hero/decoration.gif",
       id: "decorations",
     },
   ];
