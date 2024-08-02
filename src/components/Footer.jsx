@@ -3,7 +3,7 @@ import { IoCall } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <div className="bg-red-400 px-40 py-20 mt-20 flex items-center justify-between font-semibold text-lg">
+    <div className="bg-red-400 px-5 py-10 mt-20 flex items-center justify-between font-semibold text-lg">
       <div className="flex flex-col gap-10">
         <ul>
           <li>Contact Us</li>
@@ -11,7 +11,7 @@ const Footer = () => {
           <li>Shipping & Delivery Available</li>
         </ul>
       </div>
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-2">
         <p>Connect with us</p>
         <div className="flex gap-5">
           <IoCall />
