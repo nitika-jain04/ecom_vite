@@ -1,5 +1,11 @@
 export const household = [
   {
+    id: 496,
+    name: "Brass Ghungroo Kadi(2pcs)",
+    image: "../../household/brass.jpeg",
+    price: 160,
+  },
+  {
     id: 1,
     name: "Banana Cover",
     image: "../../household/banana-cover.jpeg",
@@ -166,6 +172,12 @@ export const household = [
     name: "Blanket Bag",
     image: "../../household/blanket-bag.jpeg",
     price: 250,
+  },
+  {
+    id: 497,
+    name: "140Ltr Laundry Bag",
+    image: "../../household/Laundrybag.jpeg",
+    price: 280,
   },
   {
     id: 28,
@@ -370,6 +382,12 @@ export const household = [
     name: "Lint Remover",
     image: "../../household/lintremover.jpeg",
     price: 135,
+  },
+  {
+    id: 498,
+    name: "Fan Duster",
+    image: "../../household/duster.jpeg",
+    price: 200,
   },
   {
     id: 53,
@@ -2349,6 +2367,24 @@ export const hariyaliTeej = [
     // price: "100",
   },
   {
+    id: 492,
+    name: "Bangles",
+    image: "../../hariyaliteej/bangle18.jpeg",
+    // price: "100",
+  },
+  {
+    id: 493,
+    name: "Bangles",
+    image: "../../hariyaliteej/bangle19.jpeg",
+    // price: "100",
+  },
+  {
+    id: 494,
+    name: "Bangles",
+    image: "../../hariyaliteej/bangle20.jpeg",
+    // price: "100",
+  },
+  {
     id: 256,
     name: "Bangles",
     image: "../../hariyaliteej/bangle1.jpeg",
@@ -2451,6 +2487,11 @@ export const hariyaliTeej = [
     // price: "100",
   },
   {
+    id: 495,
+    name:"Earrings",
+    image:"../../hariyaliteej/earring.jpeg",
+  },
+  {
     id: 273,
     name: "Bindis",
     image: "../../hariyaliteej/bindi.jpeg",
@@ -2471,6 +2512,12 @@ export const hariyaliTeej = [
 ];
 
 export const allData = [
+  {
+    id: 496,
+    name: "Brass Ghungroo Kadi(2pcs)",
+    image: "../../household/brass.jpeg",
+    price: 160,
+  },
   {
     id: 1,
     name: "Banana Cover",
@@ -2639,6 +2686,12 @@ export const allData = [
     name: "Blanket Bag",
     image: "../../household/blanket-bag.jpeg",
     price: 250,
+  },
+  {
+    id: 497,
+    name: "140Ltr Laundry Bag",
+    image: "../../household/Laundrybag.jpeg",
+    price: 280,
   },
   {
     id: 28,
@@ -2843,6 +2896,12 @@ export const allData = [
     name: "Lint Remover",
     image: "../../household/lintremover.jpeg",
     price: 135,
+  },
+  {
+    id: 498,
+    name: "Fan Duster",
+    image: "../../household/duster.jpeg",
+    price: 200,
   },
   {
     id: 53,
@@ -4645,6 +4704,24 @@ export const allData = [
     // price: 100,
   },
   {
+    id: 492,
+    name: "Bangles",
+    image: "../../hariyaliteej/bangle18.jpeg",
+    // price: "100",
+  },
+  {
+    id: 493,
+    name: "Bangles",
+    image: "../../hariyaliteej/bangle19.jpeg",
+    // price: "100",
+  },
+  {
+    id: 494,
+    name: "Bangles",
+    image: "../../hariyaliteej/bangle20.jpeg",
+    // price: "100",
+  },
+  {
     id: 256,
     name: "Bangles",
     image: "../../hariyaliteej/bangle1.jpeg",
@@ -4745,6 +4822,11 @@ export const allData = [
     name: "Bangles",
     image: "../../hariyaliteej/bangle17.jpeg",
     // price: "100",
+  },
+  {
+    id: 495,
+    name:"Earrings",
+    image:"../../hariyaliteej/earring.jpeg",
   },
   {
     id: 273,

@@ -11,7 +11,7 @@ function HeroPage() {
     },
     {
       cateName: "Tricolor",
-      img: "../../hero/tri.gif",
+      img: "../../hero/tricolor.gif",
       id: "tricolor",
     },
     {
@@ -51,7 +51,7 @@ function HeroPage() {
     },
     {
       cateName: "Party Decorations",
-      img: "../../hero/decoration.gif",
+      img: "../../hero/dec.gif",
       id: "decorations",
     },
   ];
