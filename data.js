@@ -2071,6 +2071,73 @@ export const kids = [
     image: "../../kids/bubblemchn.jpeg",
     price: 550,
   },
+  {
+    id: 530,
+    name: "Gift Set",
+    image: "../../kids/toy35.jpeg",
+    price: 70,
+  },
+  {
+    id: 540,
+    name: "Diamond Painting Kit",
+    image: "../../kids/toy45.jpg",
+    price: 120,
+  },
+  {
+    id: 531,
+    name: "LED Tent House",
+    image: "../../kids/toy36.jpeg",
+    price: 980,
+    mrp: 1950,
+  },
+  {
+    id: 532,
+    name: "Mickey Bamboo Plate ",
+    image: "../../kids/toy37.jpeg",
+    price: 140,
+  },
+  {
+    id: 533,
+    name: "Mini Diary",
+    image: "../../kids/toy38.jpeg",
+    price: 60,
+  },
+  {
+    id: 534,
+    name: "Astronaut Bag",
+    image: "../../kids/toy39.jpeg",
+    price: 70,
+  },
+  {
+    id: 535,
+    name: "Pen Stand",
+    image: "../../kids/toy40.jpeg",
+    price: 490,
+  },
+  {
+    id: 536,
+    name: "Pencil Box",
+    image: "../../kids/toy41.jpeg",
+    price: 95,
+  },
+  {
+    id: 537,
+    name: "Astronaut Combo",
+    image: "../../kids/toy42.jpeg",
+    price: 350,
+  },
+  {
+    id: 538,
+    name: "Sharpener & Erasers",
+    image: "../../kids/toy43.jpeg",
+    price: 50,
+  },
+  {
+    id: 539,
+    name: "Gift Set",
+    image: "../../kids/toy44.jpeg",
+    price: 350,
+  }
 ];
 
 export const personalised = [
@@ -4367,6 +4434,73 @@ export const allData = [
     name: "Water Bubble Machine",
     image: "../../kids/bubblemchn.jpeg",
     price: 550,
+  },
+  {
+    id: 530,
+    name: "Gift Set",
+    image: "../../kids/toy35.jpeg",
+    price: 70,
+  },
+  {
+    id: 540,
+    name: "Diamond Painting Kit",
+    image: "../../kids/toy45.jpg",
+    price: 120,
+  },
+  {
+    id: 531,
+    name: "LED Tent House",
+    image: "../../kids/toy36.jpeg",
+    price: 980,
+    mrp: 1950,
+  },
+  {
+    id: 532,
+    name: "Mickey Bamboo Plate ",
+    image: "../../kids/toy37.jpeg",
+    price: 140,
+  },
+  {
+    id: 533,
+    name: "Mini Diary",
+    image: "../../kids/toy38.jpeg",
+    price: 60,
+  },
+  {
+    id: 534,
+    name: "Astronaut Bag",
+    image: "../../kids/toy39.jpeg",
+    price: 70,
+  },
+  {
+    id: 535,
+    name: "Pen Stand",
+    image: "../../kids/toy40.jpeg",
+    price: 490,
+  },
+  {
+    id: 536,
+    name: "Pencil Box",
+    image: "../../kids/toy41.jpeg",
+    price: 95,
+  },
+  {
+    id: 537,
+    name: "Astronaut Combo",
+    image: "../../kids/toy42.jpeg",
+    price: 350,
+  },
+  {
+    id: 538,
+    name: "Sharpener & Erasers",
+    image: "../../kids/toy43.jpeg",
+    price: 50,
+  },
+  {
+    id: 539,
+    name: "Gift Set",
+    image: "../../kids/toy44.jpeg",
+    price: 350,
   },
   {
     id: 164,
