@@ -18,6 +18,10 @@
   font-style: normal;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 html,
 body {
   overscroll-behavior: none;
