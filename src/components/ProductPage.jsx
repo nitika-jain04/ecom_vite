@@ -57,26 +57,9 @@ function ProductCard({ selectedProduct }) {
               {selectedProduct.price ? <MdCurrencyRupee /> : ""}
               <p className="blinker-semibold text-lg">
                 {selectedProduct.price ? selectedProduct.price : ""}
+                {/* {selectedProduct.mrp ? selectedProduct.mrp : ""} */}
               </p>
             </div>
-            {/* <div className="flex items-center gap-5 text-xl border-2 border-red-500">
-              <button
-                className="border-r-2 border-red-500 p-2 text-xl blinker-semibold"
-                m
-                onClick={() => dispatch(decrementQuantity(selectedProduct.id))}
-              >
-                -
-              </button>
-              <p className="blinker-semibold">
-                {selectedProduct.qty ? selectedProduct.qty : 1}
-              </p>
-              <button
-                className="border-l-2 border-red-500 p-2 text-xl blinker-semibold"
-                onClick={() => dispatch(incrementQuantity(selectedProduct.id))}
-              >
-                +
-              </button>
-            </div> */}
 
             <button
               className="text-lg blinker-semibold border-2 border-red-500 transition-all duration-300 ease-in p-2"

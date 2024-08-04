@@ -467,39 +467,167 @@ export const bangles = [
   {
     id: 61,
     image: "../../bangles/bangles1.jpeg",
+    name: "Bangles",
   },
   {
     id: 62,
     image: "../../bangles/bangles2.jpeg",
+    name: "Bangles",
   },
   {
     id: 63,
     image: "../../bangles/bangles3.jpeg",
+    name: "Bangles",
   },
   {
     id: 64,
     image: "../../bangles/bangles4.jpeg",
-    name: "",
+    name: "Bangles"
   },
   {
     id: 65,
     image: "../../bangles/bangles5.jpeg",
+    name: "Bangles",
   },
   {
     id: 66,
     image: "../../bangles/bangles6.jpeg",
+    name: "Bangles",
   },
   {
     id: 67,
     image: "../../bangles/bangles7.jpeg",
+    name: "Bangles",
   },
   {
     id: 68,
     image: "../../bangles/bangles8.jpeg",
+    name: "Bangles",
   },
   {
     id: 69,
     image: "../../bangles/bangles9.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 506,
+    image: "../../bangles/bangles12.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 507,
+    image: "../../bangles/bangles13.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 508,
+    image: "../../bangles/bangles14.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 509,
+    image: "../../bangles/bangles15.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 510,
+    image: "../../bangles/bangles16.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 511,
+    image: "../../bangles/bangles17.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 512,
+    image: "../../bangles/bangles18.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 513,
+    image: "../../bangles/bangles19.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 514,
+    image: "../../bangles/bangles20.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 515,
+    image: "../../bangles/bangles21.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 516,
+    image: "../../bangles/bangles22.jpeg",
+    name: "Earrings",
+  },
+  {
+    id: 517,
+    image: "../../bangles/bangles23.jpeg",
+    name: "Earrings",
+  },
+  {
+    id: 518,
+    image: "../../bangles/bangles24.jpeg",
+    name: "Earrings",
+  },
+  {
+    id: 519,
+    image: "../../bangles/bangles25.jpeg",
+    name: "Earrings",
+  },
+  {
+    id: 520,
+    image: "../../bangles/bangles26.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 521,
+    image: "../../bangles/bangles27.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 522,
+    image: "../../bangles/bangles28.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 523,
+    image: "../../bangles/bangles29.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 524,
+    image: "../../bangles/bangles30.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 525,
+    image: "../../bangles/bangles31.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 526,
+    image: "../../bangles/bangles32.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 527,
+    image: "../../bangles/bangles33.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 528,
+    image: "../../bangles/bangles34.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 529,
+    image: "../../bangles/bangles35.jpeg",
+    name: "Bangles",
   },
   {
     id: 70,
@@ -1855,6 +1983,7 @@ export const accessories = [
 
 export const kids = [
   { id: 120, name: "Diary & Pen", image: "../../kids/toy.jpeg"},
+  { id: 505, name: "Scratch Book", image: "../../kids/book.jpeg", price:80},
   { id: 121, name: "Rolling Duck", image: "../../kids/duck.jpeg",price: 450, mrp: 499 },
   { id: 122, name: "Stamp", image: "../../kids/toyy.jpeg", price: 100 },
   { id: 123, name: "Dora Ball Pool", image: "../../kids/toy1.jpeg",price: 1600 , mrp: 2599},
@@ -1931,6 +2060,7 @@ export const kids = [
   },
   { id: 161, name: "Clock with pen Stand", image: "../../kids/clock.jpeg", price:200 },
   { id: 162, name: "Pencil Box", image: "../../kids/box1.jpeg", price:159 },
+  { id: 504, name: "Pencil Box", image: "../../kids/pencil-case.jpeg", price:280 },
   { id: 461, name: "Jumbo Pencil Box", image: "../../kids/pencil.jpeg", price:280 },
 
   // { id: 163, name: "Toy", image: "../../kids/bottle1.jpeg" },
@@ -1970,21 +2100,15 @@ export const personalised = [
   },
   {
     id: 208,
-    name: "Personalised",
+    name: "Bro Frame",
     image: "../../personalised/frame1.jpeg",
-    // price: "200",
+    price: 450,
   },
   {
     id: 209,
     name: "Personalised",
     image: "../../personalised/frame2.jpeg",
-    // price: "200",
-  },
-  {
-    id: 210,
-    name: "Personalised",
-    image: "../../personalised/frame3.jpeg",
-    // price: "200",
+    price: 450
   },
   {
     id: 211,
@@ -1994,46 +2118,45 @@ export const personalised = [
   },
   {
     id: 212,
-    name: "Personalised",
+    name: "Name Plate",
     image: "../../personalised/frame5.jpeg",
     // price: "200",
   },
   {
     id: 213,
-    name: "Personalised",
+    name: "Name Plate",
     image: "../../personalised/frame6.jpeg",
     // price: "200",
   },
   {
     id: 214,
-    name: "Personalised",
+    name: "Letter Customised Name Plate",
     image: "../../personalised/frame7.jpeg",
-    // price: "200",
+    price: 499,
   },
   {
     id: 215,
     name: "Personalised",
     image: "../../personalised/frame8.jpeg",
-    // price: "200",
+    price: 450,
   },
   {
     id: 216,
     name: "Personalised",
     image: "../../personalised/frame9.jpeg",
-    // price: "200",
+    price: 499,
   },
   {
     id: 217,
     name: "Personalised",
     image: "../../personalised/frame10.jpeg",
-    // price: "200",
+    price: 450,
   },
   {
     id: 435,
     name: "Personalised",
     image: "../../personalised/frame11.jpeg",
-    // price: "200",
-  },
+    price: 499,  },
   {
     id: 436,
     name: "Personalised",
@@ -2062,26 +2185,25 @@ export const personalised = [
     id: 441,
     name: "Personalised",
     image: "../../personalised/frame17.jpeg",
-    // price: "200",
+    price: 499,
   },
   {
     id: 442,
     name: "Personalised",
     image: "../../personalised/frame18.jpeg",
-    // price: "200",
+    price: 499,
   },
   {
     id: 444,
     name: "Personalised",
     image: "../../personalised/frame20.jpeg",
-    // price: "200",
+    price: 499,
   },
   {
     id: 445,
     name: "Personalised",
     image: "../../personalised/frame21.jpeg",
-    // price: "200",
-  },
+    price: 499,  },
   {
     id: 447,
     name: "Personalised",
@@ -2090,9 +2212,9 @@ export const personalised = [
   },
   {
     id: 448,
-    name: "Personalised",
+    name: "Rakhi Hamper",
     image: "../../personalised/pillow1.jpeg",
-    // price: "200",
+    price: 450,
   },
   {
     id: 218,
@@ -2108,7 +2230,7 @@ export const personalised = [
   },
   {
     id: 220,
-    name: "Personalised",
+    name: "Doctor Gift",
     image: "../../personalised/still3.jpeg",
     // price: "200",
   },
@@ -2986,39 +3108,167 @@ export const allData = [
   {
     id: 61,
     image: "../../bangles/bangles1.jpeg",
+    name: "Bangles",
   },
   {
     id: 62,
     image: "../../bangles/bangles2.jpeg",
+    name: "Bangles",
   },
   {
     id: 63,
     image: "../../bangles/bangles3.jpeg",
+    name: "Bangles",
   },
   {
     id: 64,
     image: "../../bangles/bangles4.jpeg",
-    name: "",
+    name: "Bangles"
   },
   {
     id: 65,
     image: "../../bangles/bangles5.jpeg",
+    name: "Bangles",
   },
   {
     id: 66,
     image: "../../bangles/bangles6.jpeg",
+    name: "Bangles",
   },
   {
     id: 67,
     image: "../../bangles/bangles7.jpeg",
+    name: "Bangles",
   },
   {
     id: 68,
     image: "../../bangles/bangles8.jpeg",
+    name: "Bangles",
   },
   {
     id: 69,
     image: "../../bangles/bangles9.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 506,
+    image: "../../bangles/bangles12.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 507,
+    image: "../../bangles/bangles13.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 508,
+    image: "../../bangles/bangles14.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 509,
+    image: "../../bangles/bangles15.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 510,
+    image: "../../bangles/bangles16.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 511,
+    image: "../../bangles/bangles17.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 512,
+    image: "../../bangles/bangles18.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 513,
+    image: "../../bangles/bangles19.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 514,
+    image: "../../bangles/bangles20.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 515,
+    image: "../../bangles/bangles21.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 516,
+    image: "../../bangles/bangles22.jpeg",
+    name: "Earrings",
+  },
+  {
+    id: 517,
+    image: "../../bangles/bangles23.jpeg",
+    name: "Earrings",
+  },
+  {
+    id: 518,
+    image: "../../bangles/bangles24.jpeg",
+    name: "Earrings",
+  },
+  {
+    id: 519,
+    image: "../../bangles/bangles25.jpeg",
+    name: "Earrings",
+  },
+  {
+    id: 520,
+    image: "../../bangles/bangles26.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 521,
+    image: "../../bangles/bangles27.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 522,
+    image: "../../bangles/bangles28.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 523,
+    image: "../../bangles/bangles29.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 524,
+    image: "../../bangles/bangles30.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 525,
+    image: "../../bangles/bangles31.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 526,
+    image: "../../bangles/bangles32.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 527,
+    image: "../../bangles/bangles33.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 528,
+    image: "../../bangles/bangles34.jpeg",
+    name: "Bangles",
+  },
+  {
+    id: 529,
+    image: "../../bangles/bangles35.jpeg",
+    name: "Bangles",
   },
   {
     id: 70,
@@ -4032,6 +4282,7 @@ export const allData = [
   },
   { id: 119, name: "Loban", image: "../../pooja/loban.jpeg", price: 85 },
   { id: 120, name: "Diary & Pen", image: "../../kids/toy.jpeg"},
+  { id: 505, name: "Scratch Book", image: "../../kids/book.jpeg", price:80},
   { id: 121, name: "Rolling Duck", image: "../../kids/duck.jpeg",price: 450, mrp: 499 },
   { id: 122, name: "Stamp", image: "../../kids/toyy.jpeg", price: 100 },
   { id: 123, name: "Dora Ball Pool", image: "../../kids/toy1.jpeg",price: 1600 , mrp: 2599},
@@ -4108,6 +4359,7 @@ export const allData = [
   },
   { id: 161, name: "Clock with pen Stand", image: "../../kids/clock.jpeg", price:200 },
   { id: 162, name: "Pencil Box", image: "../../kids/box1.jpeg", price:159 },
+  { id: 504, name: "Pencil Box", image: "../../kids/pencil-case.jpeg", price:280 },
   { id: 461, name: "Jumbo Pencil Box", image: "../../kids/pencil.jpeg", price:280 },
   { id: 473, name: "Toy", image: "../../kids/bottle.jpeg", price: 450 },
   {
