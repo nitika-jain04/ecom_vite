@@ -1845,6 +1845,12 @@ export const accessories = [
     image: "../../accessories/band5.jpeg",
     // price: "50",
   },
+  {
+    id: 500,
+    name: "Hair Band",
+    image: "../../accessories/band6.jpeg",
+    // price: "50",
+  },
 ];
 
 export const kids = [
@@ -2356,6 +2362,11 @@ export const personalised = [
     id: 460,
     name: "Personalised",
     image: "../../personalised/bag1.jpeg",
+  },
+  {
+    id: 499,
+    name: "Personalised Bag",
+    image: "../../personalised/bag2.jpeg",
   },
 ];
 
@@ -4237,6 +4248,12 @@ export const allData = [
     image: "../../accessories/band5.jpeg",
   },
   {
+    id: 500,
+    name: "Hair Band",
+    image: "../../accessories/band6.jpeg",
+    // price: "50",
+  },
+  {
     id: 190,
     name: "Tri-Color Bangles",
     image: "../../tricolor/tri-bangle1.jpeg",
@@ -4694,8 +4711,13 @@ export const allData = [
   },
   {
     id: 460,
-    name: "Personalised",
+    name: "Personalised Bag",
     image: "../../personalised/bag1.jpeg",
+  },
+  {
+    id: 499,
+    name: "Personalised Bag",
+    image: "../../personalised/bag2.jpeg",
   },
   {
     id: 255,
