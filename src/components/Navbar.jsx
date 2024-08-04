@@ -44,14 +44,14 @@ function Navbar() {
         </Link>
 
         <div className="flex gap-5 items-center relative">
-          <FaRegHeart size={22} />
+          {/* <FaRegHeart size={22} /> */}
           <FaCartShopping
             size={23}
             onClick={() => {
               handleCart(true);
             }}
           />
-          <span className="absolute -top-4 left-14 text-sm rounded-full px-2 bg-white font-semibold">
+          <span className="absolute -top-4 left-5 text-sm rounded-full px-2 bg-white font-semibold">
             {cartSize > 0 && cartSize}
           </span>
         </div>

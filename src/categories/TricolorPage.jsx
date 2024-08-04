@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import { tricolor } from "../../data";
 import Products from "../components/Products";
