@@ -69,9 +69,20 @@ const Products = ({ data }) => {
           {data.name}
         </p>
 
-        <div className="flex items-center min-h-10 max-h-10">
-          {data.price ? <MdCurrencyRupee /> : ""}
-          <p>{data.price}</p>
+        <div className="flex items-center min-h-10">
+          {data.price && <MdCurrencyRupee />}
+          <p className="relative">
+            {data.mrp ? (
+              <>
+                <span className="absolute -top-5 right-2">{data.price}</span>
+                <span className="mr-2 line-through decoration-red-600 decoration-2">
+                  {data.mrp}
+                </span>
+              </>
+            ) : (
+              <span>{data.price}</span>
+            )}
+          </p>
         </div>
       </div>
 
