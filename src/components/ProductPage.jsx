@@ -57,7 +57,6 @@ function ProductCard({ selectedProduct }) {
               {selectedProduct.price ? <MdCurrencyRupee /> : ""}
               <p className="blinker-semibold text-lg">
                 {selectedProduct.price ? selectedProduct.price : ""}
-                {/* {selectedProduct.mrp ? selectedProduct.mrp : ""} */}
               </p>
             </div>
 
