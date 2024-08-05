@@ -626,6 +626,7 @@ export const bangles = [
   {
     id: 70,
     image: "../../bangles/bangles10.jpeg",
+    name: "Bangles",
   },
   {
     id: 71,
@@ -3483,6 +3484,7 @@ export const allData = [
   {
     id: 70,
     image: "../../bangles/bangles10.jpeg",
+    name: "Bangles",
   },
   {
     id: 71,

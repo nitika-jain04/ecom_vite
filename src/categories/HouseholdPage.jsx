@@ -52,13 +52,13 @@ const HouseholdPage = () => {
         </div>
 
         <div className="grid grid-cols-2 gap-5 lg:gap-10 md:flex md:flex-wrap justify-center">
-          {filteredHousehold.length > 0
-            ? filteredHousehold.map((data, index) => (
+          {filteredHousehold.length === 0
+            ? household.map((data, index) => (
                 <div key={index}>
                   <Products data={data} />
                 </div>
               ))
-            : household.map((data, index) => (
+            : filteredHousehold.map((data, index) => (
                 <div key={index}>
                   <Products data={data} />
                 </div>
