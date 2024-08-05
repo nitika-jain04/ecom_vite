@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { kids } from "../../data";
 import Products from "../components/Products";
 import ProductNav from "../components/ProductNav";
@@ -13,18 +13,16 @@ const KidsPage = () => {
   const [search, setSearch] = useState("");
   const [filteredHousehold, setFilteredHousehold] = useState(kids);
 
-  const handleSearch = () => {
-    const filtered = kids.filter((item) =>
-      item.name.toLowerCase().includes(search.toLowerCase())
-    );
-    setFilteredHousehold(filtered);
-  };
-
-  const handleKeyDown = (event) => {
-    if (event.key === "Enter") {
-      handleSearch();
+  useEffect(() => {
+    if (search === "") {
+      setFilteredHousehold(kids);
+    } else {
+      const filtered = kids.filter((item) =>
+        item.name.toLowerCase().includes(search.toLowerCase())
+      );
+      setFilteredHousehold(filtered);
     }
-  };
+  }, [search]);
 
   return (
     <>
@@ -48,7 +46,7 @@ const KidsPage = () => {
             placeholder="Search here"
             onChange={(e) => setSearch(e.target.value)}
             className="focus:outline-none"
-            onKeyDown={handleKeyDown}
+            // onKeyDown={handleKeyDown}
           />
         </div>
 

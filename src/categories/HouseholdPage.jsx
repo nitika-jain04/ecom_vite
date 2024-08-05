@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { household } from "../../data";
 import Products from "../components/Products";
 import ProductNav from "../components/ProductNav";
@@ -11,18 +11,16 @@ const HouseholdPage = () => {
   const [search, setSearch] = useState("");
   const [filteredHousehold, setFilteredHousehold] = useState(household);
 
-  const handleSearch = () => {
-    const filtered = household.filter((item) =>
-      item.name.toLowerCase().includes(search.toLowerCase())
-    );
-    setFilteredHousehold(filtered);
-  };
-
-  const handleKeyDown = (event) => {
-    if (event.key === "Enter") {
-      handleSearch();
+  useEffect(() => {
+    if (search === "") {
+      setFilteredHousehold(household);
+    } else {
+      const filtered = household.filter((item) =>
+        item.name.toLowerCase().includes(search.toLowerCase())
+      );
+      setFilteredHousehold(filtered);
     }
-  };
+  }, [search]);
 
   return (
     <>
@@ -47,7 +45,7 @@ const HouseholdPage = () => {
             placeholder="Search here"
             onChange={(e) => setSearch(e.target.value)}
             className="focus:outline-none"
-            onKeyDown={handleKeyDown}
+            // onKeyDown={handleKeyDown}
           />
         </div>
 
