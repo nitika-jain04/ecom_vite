@@ -5554,6 +5554,58 @@ export const allData = [
     image: "../../hariyaliteej/sindoor.jpeg",
     // price: "100",
   },
+  {
+    id: 298,
+    image: "../../decorations/dec1.jpeg",
+  },
+  {
+    id: 299,
+    image: "../../decorations/dec2.jpeg",
+  },
+  {
+    id: 300,
+    image: "../../decorations/dec3.jpeg",
+  },
+  {
+    id: 302,
+    image: "../../decorations/dec5.jpeg",
+  },
+  {
+    id: 303,
+    image: "../../decorations/dec6.jpeg",
+  },
+  {
+    id: 304,
+    image: "../../decorations/dec7.jpeg",
+  },
+  {
+    id: 305,
+    image: "../../decorations/dec8.jpeg",
+  },
+  {
+    id: 306,
+    image: "../../decorations/dec9.jpeg",
+  },
+  {
+    id: 307,
+    image: "../../decorations/dec10.jpeg",
+  },
+  {
+    id: 308,
+    image: "../../decorations/dec11.jpeg",
+  },
+  {
+    id: 309,
+    image: "../../decorations/dec12.jpeg",
+  },
+  {
+    id: 310,
+    image: "../../decorations/dec13.jpeg",
+  },
+  {
+    id: 311,
+    image: "../../decorations/dec14.jpeg",
+  },
 ];
 
 //481

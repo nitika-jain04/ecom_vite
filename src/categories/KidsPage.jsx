@@ -1,14 +1,31 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { kids } from "../../data";
 import Products from "../components/Products";
 import ProductNav from "../components/ProductNav";
 import Navbar from "../components/Navbar";
 import { Toaster } from "react-hot-toast";
 import { Helmet } from "react-helmet";
+import { BsSearch } from "react-icons/bs";
 
 const KidsPage = () => {
+  const [search, setSearch] = useState("");
+  const [filteredHousehold, setFilteredHousehold] = useState(kids);
+
+  const handleSearch = () => {
+    const filtered = kids.filter((item) =>
+      item.name.toLowerCase().includes(search.toLowerCase())
+    );
+    setFilteredHousehold(filtered);
+  };
+
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      handleSearch();
+    }
+  };
+
   return (
     <>
       <Helmet>
@@ -24,14 +41,29 @@ const KidsPage = () => {
 
         <ProductNav />
 
+        <div className="flex gap-3 items-center border-2 border-stone-600 rounded-md px-2 py-1">
+          <BsSearch />
+          <input
+            type="text"
+            placeholder="Search here"
+            onChange={(e) => setSearch(e.target.value)}
+            className="focus:outline-none"
+            onKeyDown={handleKeyDown}
+          />
+        </div>
+
         <div className="grid grid-cols-2 gap-5 lg:gap-10 md:flex md:flex-wrap justify-center">
-          {kids.map((data, index) => {
-            return (
-              <div key={index}>
-                <Products data={data} />
-              </div>
-            );
-          })}
+          {filteredHousehold.length === 0
+            ? kids.map((data, index) => (
+                <div key={index}>
+                  <Products data={data} />
+                </div>
+              ))
+            : filteredHousehold.map((data, index) => (
+                <div key={index}>
+                  <Products data={data} />
+                </div>
+              ))}
         </div>
       </div>
     </>
