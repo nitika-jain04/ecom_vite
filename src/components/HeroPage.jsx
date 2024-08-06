@@ -56,13 +56,13 @@ function HeroPage() {
     },
   ];
 
-  const handleClick = (id) => {
-    const section = document.getElementById(id);
-    if (section) {
-      section.style.paddingTop = "70px";
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  // const handleClick = (id) => {
+  //   const section = document.getElementById(id);
+  //   if (section) {
+  //     section.style.paddingTop = "70px";
+  //     section.scrollIntoView({ behavior: "smooth" });
+  //   }
+  // };
 
   return (
     <div className="px-5 lg:px-10">
