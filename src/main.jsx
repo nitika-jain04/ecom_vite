@@ -14,7 +14,6 @@ import AccessoriesPage from "./categories/AccessoriesPage.jsx";
 import BanglesPage from "./categories/BanglesPage.jsx";
 import TricolorPage from "./categories/TricolorPage.jsx";
 import PersonalisedPage from "./categories/PersonalisedPage.jsx";
-import AllPage from "./categories/All.jsx";
 import HariyaliPage from "./categories/HariyaliPage.jsx";
 import ProductPage from "./components/ProductPage.jsx";
 
@@ -66,10 +65,6 @@ const router = createBrowserRouter([
   {
     path: "/product/:id",
     element: <ProductPage />,
-  },
-  {
-    path: "/categories/all",
-    element: <AllPage />,
   },
 ]);
 

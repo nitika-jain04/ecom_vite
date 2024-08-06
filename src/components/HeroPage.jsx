@@ -5,24 +5,19 @@ import { Link } from "react-router-dom";
 function HeroPage() {
   const categories = [
     {
-      cateName: "Rakhi",
-      img: "../../hero/rakhi.gif",
-      id: "rakhi",
-    },
-    {
-      cateName: "Tricolor",
-      img: "../../hero/tricolor.gif",
-      id: "tricolor",
-    },
-    {
       cateName: "Household & Kitchen",
       img: "../../hero/household.gif",
       id: "household",
     },
     {
-      cateName: "Kids Accessories",
-      img: "../../hero/accessories.gif",
-      id: "accessories",
+      cateName: "Rakhi",
+      img: "../../hero/rakhi.gif",
+      id: "rakhi",
+    },
+    {
+      cateName: "Pooja Essentials",
+      img: "../../hero/pooja.gif",
+      id: "pooja",
     },
     {
       cateName: "Kids Gift Items",
@@ -30,14 +25,9 @@ function HeroPage() {
       id: "kids",
     },
     {
-      cateName: "Bangles",
-      img: "../../hero/bangles.gif",
-      id: "bangles",
-    },
-    {
-      cateName: "Hariyali Teej",
-      img: "../../hero/hariyali.gif",
-      id: "hariyali",
+      cateName: "Kids Accessories",
+      img: "../../hero/accessories.gif",
+      id: "accessories",
     },
     {
       cateName: "Personalised",
@@ -45,9 +35,19 @@ function HeroPage() {
       id: "personalised",
     },
     {
-      cateName: "Pooja Essentials",
-      img: "../../hero/pooja.gif",
-      id: "pooja",
+      cateName: "Hariyali Teej",
+      img: "../../hero/hariyali.gif",
+      id: "hariyali",
+    },
+    {
+      cateName: "Tricolor",
+      img: "../../hero/tricolor.gif",
+      id: "tricolor",
+    },
+    {
+      cateName: "Bangles",
+      img: "../../hero/bangles.gif",
+      id: "bangles",
     },
     {
       cateName: "Party Decorations",

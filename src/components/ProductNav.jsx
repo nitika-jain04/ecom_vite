@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const ProductNav = () => {
   return (
     <ul className="flex flex-wrap gap-3 items-center my-5 justify-center">
-      <li className="border-2 border-red-400 p-2 blinker-semibold">
+      {/* <li className="border-2 border-red-400 p-2 blinker-semibold">
         <Link to="/categories/all">All</Link>
-      </li>
+      </li> */}
       <li className="border-2 border-red-400 p-2 blinker-semibold">
         <Link to="/categories/household">Household</Link>
       </li>
