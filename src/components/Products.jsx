@@ -53,8 +53,17 @@ const Products = ({ data }) => {
   }
 
   return (
-    <div className="flex flex-col justify-center gap-5 drop-shadow-lg shadow-red-500 py-3 px-2 rounded-md bg-purple-50 min-h-80 max-h-80 w-[160px]">
-      <Link to={`/product/${data.id}`}>
+    <div
+      className={`flex flex-col justify-center gap-5 relative drop-shadow-lg shadow-red-500 py-3 px-2 rounded-md bg-purple-50 min-h-80 max-h-80 w-[160px] ${
+        data.stockOut && "brightness-[0.75]"
+      } `}
+    >
+      {data.stockOut && (
+        <p className="absolute text-red-500 font-semibold text-lg top-0 right-8 brightness-100">
+          Stocked Out
+        </p>
+      )}
+      <Link to={data.stockOut ? "#" : `/product/${data.id}`}>
         <img
           src={data.image}
           alt={data.name}
