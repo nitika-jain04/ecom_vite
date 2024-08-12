@@ -56,14 +56,6 @@ function HeroPage() {
     },
   ];
 
-  // const handleClick = (id) => {
-  //   const section = document.getElementById(id);
-  //   if (section) {
-  //     section.style.paddingTop = "70px";
-  //     section.scrollIntoView({ behavior: "smooth" });
-  //   }
-  // };
-
   return (
     <div className="px-5 lg:px-10">
       <p className="text-center text-2xl blinker-semibold py-5 lg:text-start">
@@ -78,7 +70,7 @@ function HeroPage() {
                 <img
                   src={category.img}
                   alt={category.cateName}
-                  className="aspect-square rounded-full m-2"
+                  className="aspect-square rounded-full m-2 transition-all duration-500 ease-in"
                   width={100}
                   height={100}
                 />
