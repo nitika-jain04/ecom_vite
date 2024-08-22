@@ -2118,6 +2118,18 @@ export const kids = [
     image: "../../kids/toy23.jpeg",
     price: 60,
   },
+  {
+    id: 565,
+    name: "Magic Water Coloring Book",
+    image: "../../kids/toy60.jpeg",
+    price: 60,
+  },
+  {
+    id: 566,
+    name: "Scratch Coloring Book",
+    image: "../../kids/toy61.jpeg",
+    price: 70,
+  },
   { id: 146, name: "Toy", image: "../../kids/toy24.jpeg" },
   { id: 147, name: "Catcher Game", image: "../../kids/toy25.jpeg", price: 499 },
   { id: 148, name: "Spiderman", image: "../../kids/toy26.jpeg", price: 199 },
@@ -2334,6 +2346,91 @@ export const kids = [
     name: "Gift Pack",
     image: "../../kids/toy54.jpeg",
     price: 170,
+  },
+  {
+    id: 560,
+    name: "Alphabet Foam Mat",
+    image: "../../kids/toy55.jpeg",
+    price: 180,
+  },
+  {
+    id: 561,
+    name: "Mic Speaker",
+    image: "../../kids/toy56.jpeg",
+    price: 640,
+  },
+  {
+    id: 562,
+    name: "37 Keys Keyboard",
+    image: "../../kids/toy57.jpeg",
+    price: 700,
+  },
+  {
+    id: 569,
+    name: "61Keys Keyboard",
+    image: "../../kids/toy64.jpeg",
+    price: 1200,
+  },
+  {
+    id: 563,
+    name: "Blast Gun",
+    image: "../../kids/toy58.jpeg",
+    price: 690,
+    mrp: 1049,
+  },
+  {
+    id: 564,
+    name: "Indoor Football",
+    image: "../../kids/toy59.jpeg",
+    price: 300,
+  },
+  {
+    id: 567,
+    name: "Uno Cards",
+    image: "../../kids/toy62.jpeg",
+    price: 80,
+  },
+  {
+    id: 568,
+    name: "Dancing Space Panda",
+    image: "../../kids/toy63.jpeg",
+    price: 490,
+  },
+  {
+    id: 570,
+    name: "55pcs Magic Magnetic Blocks",
+    image: "../../kids/toy65.jpeg",
+    price: 1300,
+  },
+  {
+    id: 573,
+    name: "78pcs Magic Magnetic Blocks",
+    image: "../../kids/toy65.jpeg",
+    price: 1550,
+  },
+  {
+    id: 571,
+    name: "Magnetic Stick Building Blocks(25pcs)",
+    image: "../../kids/toy66.jpeg",
+    price: 450,
+  },
+  {
+    id: 574,
+    name: "Magnetic Stick Building Blocks(52pcs)",
+    image: "../../kids/toy66.jpeg",
+    price: 870,
+  },
+  {
+    id: 572,
+    name: "Magnetic Blocks(56pcs)",
+    image: "../../kids/toy67.jpeg",
+    price: 899,
+  },
+  {
+    id: 575,
+    name: "Avengers Sound Toy",
+    image: "../../kids/toy68.png",
+    price: 399,
   },
 ];
 
@@ -4767,6 +4864,18 @@ export const allData = [
     image: "../../kids/toy23.jpeg",
     price: 60,
   },
+  {
+    id: 565,
+    name: "Magic Water Coloring Book",
+    image: "../../kids/toy60.jpeg",
+    price: 60,
+  },
+  {
+    id: 566,
+    name: "Scratch Coloring Book",
+    image: "../../kids/toy61.jpeg",
+    price: 70,
+  },
   { id: 146, name: "Toy", image: "../../kids/toy24.jpeg" },
   { id: 147, name: "Catcher Game", image: "../../kids/toy25.jpeg", price: 499 },
   { id: 148, name: "Spiderman", image: "../../kids/toy26.jpeg", price: 199 },
@@ -4981,6 +5090,91 @@ export const allData = [
     name: "Gift Pack",
     image: "../../kids/toy54.jpeg",
     price: 170,
+  },
+  {
+    id: 560,
+    name: "Alphabet Foam Mat",
+    image: "../../kids/toy55.jpeg",
+    price: 180,
+  },
+  {
+    id: 561,
+    name: "Mic Speaker",
+    image: "../../kids/toy56.jpeg",
+    price: 640,
+  },
+  {
+    id: 562,
+    name: "37 Keys Keyboard",
+    image: "../../kids/toy57.jpeg",
+    price: 700,
+  },
+  {
+    id: 569,
+    name: "61Keys Keyboard",
+    image: "../../kids/toy64.jpeg",
+    price: 1200,
+  },
+  {
+    id: 563,
+    name: "Blast Gun",
+    image: "../../kids/toy58.jpeg",
+    price: 690,
+    mrp: 1049,
+  },
+  {
+    id: 564,
+    name: "Indoor Football",
+    image: "../../kids/toy59.jpeg",
+    price: 300,
+  },
+  {
+    id: 567,
+    name: "Uno Cards",
+    image: "../../kids/toy62.jpeg",
+    price: 80,
+  },
+  {
+    id: 568,
+    name: "Dancing Space Panda",
+    image: "../../kids/toy63.jpeg",
+    price: 490,
+  },
+  {
+    id: 570,
+    name: "55pcs Magic Magnetic Blocks",
+    image: "../../kids/toy65.jpeg",
+    price: 1300,
+  },
+  {
+    id: 573,
+    name: "78pcs Magic Magnetic Blocks",
+    image: "../../kids/toy65.jpeg",
+    price: 1550,
+  },
+  {
+    id: 571,
+    name: "Magnetic Stick Building Blocks(25pcs)",
+    image: "../../kids/toy66.jpeg",
+    price: 450,
+  },
+  {
+    id: 574,
+    name: "Magnetic Stick Building Blocks(52pcs)",
+    image: "../../kids/toy66.jpeg",
+    price: 870,
+  },
+  {
+    id: 572,
+    name: "Magnetic Blocks(56pcs)",
+    image: "../../kids/toy67.jpeg",
+    price: 899,
+  },
+  {
+    id: 575,
+    name: "Avengers Sound Toy",
+    image: "../../kids/toy68.png",
+    price: 399,
   },
   {
     id: 164,
@@ -5838,7 +6032,7 @@ export const allData = [
   },
 ];
 
-//560
+//572
 
 export const carousel = {
   name: "cara",
