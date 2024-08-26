@@ -2657,15 +2657,15 @@ export const personalised = [
     image: "../../personalised/still14.jpeg",
   },
   {
+    id: 576,
+    name: "StainlessSteel Bottle(750ml)",
+    image: "../../personalised/bottle.jpeg",
+    price: 350,
+  },
+  {
     id: 231,
     name: "Personalised",
     image: "../../personalised/bottle1.jpeg",
-    // price: "200",
-  },
-  {
-    id: 232,
-    name: "Personalised",
-    image: "../../personalised/bottle2.jpeg",
     // price: "200",
   },
   {
@@ -2721,6 +2721,12 @@ export const personalised = [
     name: "Personalised",
     image: "../../personalised/ut1.jpeg",
     // price: "200",
+  },
+  {
+    id: 577,
+    name: "Round Meal Set(6pcs)",
+    image: "../../personalised/plate.jpeg",
+    price: 590,
   },
   {
     id: 242,
@@ -2849,6 +2855,12 @@ export const personalised = [
     id: 499,
     name: "Personalised Bag",
     image: "../../personalised/bag2.jpeg",
+  },
+  {
+    id: 578,
+    name: "Planner Diary & Pen",
+    image: "../../personalised/diary.jpeg",
+    price: 460,
   },
   {
     id: 548,
@@ -5413,59 +5425,63 @@ export const allData = [
   },
   {
     id: 208,
-    name: "Personalised",
+    name: "Bro Frame",
     image: "../../personalised/frame1.jpeg",
+    price: 450,
   },
   {
     id: 209,
     name: "Personalised",
     image: "../../personalised/frame2.jpeg",
-  },
-  {
-    id: 210,
-    name: "Personalised",
-    image: "../../personalised/frame3.jpeg",
+    price: 450,
   },
   {
     id: 211,
     name: "Personalised",
     image: "../../personalised/frame4.jpeg",
+    // price: "200",
   },
   {
     id: 212,
-    name: "Personalised",
+    name: "Name Plate",
     image: "../../personalised/frame5.jpeg",
+    // price: "200",
   },
   {
     id: 213,
-    name: "Personalised",
+    name: "Name Plate",
     image: "../../personalised/frame6.jpeg",
+    // price: "200",
   },
   {
     id: 214,
-    name: "Personalised",
+    name: "Letter Customised Name Plate",
     image: "../../personalised/frame7.jpeg",
+    price: 499,
   },
   {
     id: 215,
     name: "Personalised",
     image: "../../personalised/frame8.jpeg",
+    price: 450,
   },
   {
     id: 216,
     name: "Personalised",
     image: "../../personalised/frame9.jpeg",
+    price: 499,
   },
   {
     id: 217,
     name: "Personalised",
     image: "../../personalised/frame10.jpeg",
+    price: 450,
   },
   {
     id: 435,
     name: "Personalised",
     image: "../../personalised/frame11.jpeg",
-    // price: "200",
+    price: 499,
   },
   {
     id: 436,
@@ -5495,25 +5511,25 @@ export const allData = [
     id: 441,
     name: "Personalised",
     image: "../../personalised/frame17.jpeg",
-    // price: "200",
+    price: 499,
   },
   {
     id: 442,
     name: "Personalised",
     image: "../../personalised/frame18.jpeg",
-    // price: "200",
+    price: 499,
   },
   {
     id: 444,
     name: "Personalised",
     image: "../../personalised/frame20.jpeg",
-    // price: "200",
+    price: 499,
   },
   {
     id: 445,
     name: "Personalised",
     image: "../../personalised/frame21.jpeg",
-    // price: "200",
+    price: 499,
   },
   {
     id: 447,
@@ -5523,69 +5539,81 @@ export const allData = [
   },
   {
     id: 448,
-    name: "Personalised",
+    name: "Rakhi Hamper",
     image: "../../personalised/pillow1.jpeg",
-    // price: "200",
+    price: 450,
   },
   {
     id: 218,
     name: "Personalised",
     image: "../../personalised/still1.jpeg",
+    // price: "200",
   },
   {
     id: 219,
     name: "Personalised",
     image: "../../personalised/still2.jpeg",
+    // price: "200",
   },
   {
     id: 220,
-    name: "Personalised",
+    name: "Doctor Gift",
     image: "../../personalised/still3.jpeg",
+    // price: "200",
   },
   {
     id: 222,
     name: "Personalised",
     image: "../../personalised/still5.jpeg",
+    // price: "200",
   },
   {
     id: 223,
     name: "Personalised",
     image: "../../personalised/still6.jpeg",
+    // price: "200",
   },
   {
     id: 224,
     name: "Personalised",
     image: "../../personalised/still7.jpeg",
+    // price: "200",
   },
   {
     id: 225,
     name: "Personalised",
     image: "../../personalised/still8.jpeg",
+    // price: "200",
   },
   {
     id: 226,
     name: "Personalised",
     image: "../../personalised/still9.jpeg",
+    // price: "200",
   },
   {
     id: 227,
     name: "Personalised",
     image: "../../personalised/still10.jpeg",
+    // price: "200",
   },
   {
     id: 228,
     name: "Personalised",
     image: "../../personalised/still11.jpeg",
+    // price: "200",
   },
   {
     id: 229,
     name: "Personalised",
     image: "../../personalised/still12.jpeg",
+    // price: "200",
   },
   {
     id: 230,
     name: "Personalised",
     image: "../../personalised/still13.jpeg",
+    // price: "200",
   },
   {
     id: 451,
@@ -5593,79 +5621,100 @@ export const allData = [
     image: "../../personalised/still14.jpeg",
   },
   {
+    id: 576,
+    name: "StainlessSteel Bottle(750ml)",
+    image: "../../personalised/bottle.jpeg",
+    price: 350,
+  },
+  {
     id: 231,
     name: "Personalised",
     image: "../../personalised/bottle1.jpeg",
-  },
-  {
-    id: 232,
-    name: "Personalised",
-    image: "../../personalised/bottle2.jpeg",
+    // price: "200",
   },
   {
     id: 233,
     name: "Personalised",
     image: "../../personalised/bottle3.jpeg",
+    // price: "200",
   },
   {
     id: 234,
     name: "Personalised",
     image: "../../personalised/bottle4.jpeg",
+    // price: "200",
   },
   {
     id: 235,
     name: "Personalised",
     image: "../../personalised/bottle5.jpeg",
+    // price: "200",
   },
   {
     id: 236,
     name: "Personalised",
     image: "../../personalised/cap.jpeg",
+    // price: "200",
   },
   {
     id: 237,
     name: "Personalised",
     image: "../../personalised/toy.jpeg",
+    // price: "200",
   },
   {
     id: 238,
     name: "Personalised",
     image: "../../personalised/toy1.jpeg",
+    // price: "200",
   },
   {
     id: 239,
     name: "Personalised",
     image: "../../personalised/toy2.jpeg",
+    // price: "200",
   },
   {
     id: 240,
     name: "Personalised",
     image: "../../personalised/toy3.jpeg",
+    // price: "200",
   },
   {
     id: 241,
     name: "Personalised",
     image: "../../personalised/ut1.jpeg",
+    // price: "200",
+  },
+  {
+    id: 577,
+    name: "Round Meal Set(6pcs)",
+    image: "../../personalised/plate.jpeg",
+    price: 590,
   },
   {
     id: 242,
     name: "Personalised",
     image: "../../personalised/ut2.jpeg",
+    // price: "200",
   },
   {
     id: 243,
     name: "Personalised",
     image: "../../personalised/wallet1.jpeg",
+    // price: "200",
   },
   {
     id: 244,
     name: "Personalised",
     image: "../../personalised/wallet2.jpeg",
+    // price: "200",
   },
   {
     id: 245,
     name: "Personalised",
     image: "../../personalised/wallet3.jpeg",
+    // price: "200",
   },
   {
     id: 450,
@@ -5677,41 +5726,49 @@ export const allData = [
     id: 246,
     name: "Personalised",
     image: "../../personalised/tiffin1.jpeg",
+    // price: "200",
   },
   {
     id: 247,
     name: "Personalised",
     image: "../../personalised/tiffin2.jpeg",
+    // price: "200",
   },
   {
     id: 248,
     name: "Personalised",
     image: "../../personalised/tiffin3.jpeg",
+    // price: "200",
   },
   {
     id: 249,
     name: "Personalised",
     image: "../../personalised/Rakhi.jpeg",
+    // price: "200",
   },
   {
-    id: 250,
+    id: 450,
     name: "Personalised",
     image: "../../personalised/rakhi1.jpeg",
+    // price: "200",
   },
   {
     id: 252,
     name: "Personalised",
     image: "../../personalised/rakhi3.jpeg",
+    // price: "200",
   },
   {
     id: 253,
     name: "Personalised",
     image: "../../personalised/card1.jpeg",
+    // price: "200",
   },
   {
     id: 254,
     name: "Personalised",
     image: "../../personalised/clock1.jpeg",
+    // price: "200",
   },
   {
     id: 452,
@@ -5755,13 +5812,19 @@ export const allData = [
   },
   {
     id: 460,
-    name: "Personalised Bag",
+    name: "Personalised",
     image: "../../personalised/bag1.jpeg",
   },
   {
     id: 499,
     name: "Personalised Bag",
     image: "../../personalised/bag2.jpeg",
+  },
+  {
+    id: 578,
+    name: "Planner Diary & Pen",
+    image: "../../personalised/diary.jpeg",
+    price: 460,
   },
   {
     id: 548,
@@ -6032,7 +6095,7 @@ export const allData = [
   },
 ];
 
-//572
+//579
 
 export const carousel = {
   name: "cara",
