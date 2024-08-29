@@ -16,6 +16,7 @@ import TricolorPage from "./categories/TricolorPage.jsx";
 import PersonalisedPage from "./categories/PersonalisedPage.jsx";
 import HariyaliPage from "./categories/HariyaliPage.jsx";
 import ProductPage from "./components/ProductPage.jsx";
+import DiwaliPage from "./categories/Diwali.jsx";
 
 const router = createBrowserRouter([
   {
@@ -62,6 +63,7 @@ const router = createBrowserRouter([
     path: "/categories/hariyali",
     element: <HariyaliPage />,
   },
+  { path: "/categories/diwali", element: <DiwaliPage /> },
   {
     path: "/product/:id",
     element: <ProductPage />,

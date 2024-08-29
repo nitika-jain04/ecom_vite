@@ -9,6 +9,7 @@ function HeroPage() {
       img: "../../hero/household.gif",
       id: "household",
     },
+    { cateName: "Diwali Items", img: "../../hero/diwali.gif", id: "diwali" },
     {
       cateName: "Rakhi",
       img: "../../hero/rakhi.gif",
