@@ -2604,6 +2604,12 @@ export const personalised = [
     // price: "200",
   },
   {
+    id: 579,
+    name: "Personalised Pillow",
+    image: "../../personalised/pillow2.jpeg",
+    price: 449,
+  },
+  {
     id: 223,
     name: "Personalised",
     image: "../../personalised/still6.jpeg",
@@ -2735,6 +2741,18 @@ export const personalised = [
     // price: "200",
   },
   {
+    id: 580,
+    name: "Personalised Shape Plate",
+    image: "../../personalised/plate1.jpeg",
+    price: 549,
+  },
+  {
+    id: 581,
+    name: "Shape Plate w Spoon & Fork",
+    image: "../../personalised/plate1.jpeg",
+    price: 649,
+  },
+  {
     id: 243,
     name: "Personalised",
     image: "../../personalised/wallet1.jpeg",
@@ -2825,6 +2843,11 @@ export const personalised = [
     id: 455,
     name: "Personalised",
     image: "../../personalised/cup4.jpeg",
+  },
+  {
+    id: 582,
+    name: "Personalised Cup",
+    image: "../../personalised/cup.jpeg",
   },
   {
     id: 456,
