@@ -3,6 +3,30 @@ export const diwaliDecoration = [
     id: 596,
     name: "Cow Mandir Hanging",
     image: "../../diwali/hanging1.jpeg",
+    price: 250
+  },
+  {
+    id: 606,
+    name: "Cow Mandir Hanging",
+    image: "../../diwali/hanging4.jpeg",
+    price: 250
+  },
+  {
+    id: 607,
+    name: "Cow Mandir Hanging",
+    image: "../../diwali/hanging5.jpeg",
+    price: 250
+  },
+  {
+    id: 604,
+    name: "Marigold Strings (Pack of 5)",
+    image: "../../diwali/hanging2.jpeg",
+    price: 200
+  },
+  {
+    id: 605,
+    name: "Lotus Hanging",
+    image: "../../diwali/hanging3.jpeg",
     price: 200
   },
   {
@@ -56,8 +80,56 @@ export const diwaliDecoration = [
   {
     id: 595,
     name: "Dumru Tea Light Holder (4pcs)",
-    image: "../../diwali/holder8.jpeg",
+    image: "../../diwali/holder18.jpeg",
     price: 100,
+  },
+  {
+    id: 596,
+    name: "Tea Light Holder (1pc)",
+    image: "../../diwali/holder9.jpeg",
+    price: 90,
+  },
+  {
+    id: 597,
+    name: "Ring Tea Light Holder (4pcs)",
+    image: "../../diwali/holder10.jpeg",
+    price: 100,
+  },
+  {
+    id: 598,
+    name: "Peacock & Elephant Tea Light Holder",
+    image: "../../diwali/holder11.jpeg",
+    price: 450,
+  },
+  {
+    id: 599,
+    name: "Peacock Tea Light Holder",
+    image: "../../diwali/holder12.jpeg",
+    price: 350,
+  },
+  {
+    id: 600,
+    name: "Lotus & Dumru Tea Light Holder",
+    image: "../../diwali/holder13.jpeg",
+    price: 340,
+  },
+  {
+    id: 601,
+    name: "Lotus Tea Light Holder (4pcs)",
+    image: "../../diwali/holder15.jpeg",
+    price: 160,
+  },
+  {
+    id: 602,
+    name: "Lotus Tea Light Holder (4pcs)",
+    image: "../../diwali/holder16.jpeg",
+    price: 160,
+  },
+  {
+    id: 603,
+    name: "Tea Light Holder",
+    image: "../../diwali/holder17.jpeg",
+    price: 200,
   },
   {
     id: 588,
@@ -93,6 +165,18 @@ export const diwaliDecoration = [
     id: 594,
     name: "Urli",
     image: "../../diwali/urli2.jpeg",
+    price: 200,
+  },
+  {
+    id: 606,
+    name: "Rangoli Colors W Nozzle",
+    image: "../../diwali/rangolicolors1.jpeg",
+    price: 200,
+  },
+  {
+    id: 607,
+    name: "Rangoli Colors w/o Nozzle",
+    image: "../../diwali/rangolicolors2.jpeg",
     price: 200,
   },
 ];
@@ -6899,7 +6983,7 @@ export const allData = [
   {
     id: 595,
     name: "Dumru Tea Light Holder (4pcs)",
-    image: "../../diwali/holder8.jpeg",
+    image: "../../diwali/holder18.jpeg",
     price: 100,
   },
   {
