@@ -32,7 +32,7 @@ export const diwaliDecoration = [
   {
     id: 609,
     name: "Lotus Hanging (2pcs)",
-    image: "../../diwali/hanging4.jpeg",
+    image: "../../diwali/hanging6.jpg",
     price: 60
   },
   {
@@ -6977,7 +6977,7 @@ export const allData = [
   {
     id: 609,
     name: "Lotus Hanging (2pcs)",
-    image: "../../diwali/hanging4.jpeg",
+    image: "../../diwali/hanging6.jpg",
     price: 60
   },
   {
