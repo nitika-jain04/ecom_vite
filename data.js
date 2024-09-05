@@ -6843,6 +6843,12 @@ export const allData = [
     image: "../../decorations/dec14.jpeg",
   },
   {
+    id: 596,
+    name: "Cow Mandir Hanging",
+    image: "../../diwali/hanging1.jpeg",
+    price: 200
+  },
+  {
     id: 583,
     name: "Tea Light Holder",
     image: "../../diwali/holder1.jpeg",
@@ -6876,6 +6882,24 @@ export const allData = [
     id: 587,
     name: "Tea Light Holder (1pc)",
     image: "../../diwali/holder5.jpeg",
+    price: 100,
+  },
+  {
+    id: 593,
+    name: "Tea Light Holder (4pcs)",
+    image: "../../diwali/holder6.jpeg",
+    price: 100,
+  },
+  {
+    id: 594,
+    name: "Elephant Tea Light Holder (4pcs)",
+    image: "../../diwali/holder7.jpeg",
+    price: 120,
+  },
+  {
+    id: 595,
+    name: "Dumru Tea Light Holder (4pcs)",
+    image: "../../diwali/holder8.jpeg",
     price: 100,
   },
   {
