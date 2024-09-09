@@ -3,43 +3,85 @@ export const diwaliDecoration = [
     id: 596,
     name: "Cow Mandir Hanging",
     image: "../../diwali/hanging1.jpeg",
-    price: 250
+    price: 250,
   },
   {
     id: 606,
     name: "Cow Mandir Hanging",
     image: "../../diwali/hanging4.jpeg",
-    price: 250
+    price: 250,
   },
   {
     id: 607,
     name: "Cow Mandir Hanging",
     image: "../../diwali/hanging5.jpeg",
-    price: 250
+    price: 250,
+  },
+  {
+    id: 613,
+    name: "Cow Mandir Hanging(Colors Available)",
+    image: "../../diwali/hanging7.jpeg",
+    price: 320,
   },
   {
     id: 604,
-    name: "Marigold Strings (Pack of 5)",
+    name: "Marigold Strings (5pcs)",
     image: "../../diwali/hanging2.jpeg",
-    price: 300
+    price: 300,
+  },
+  {
+    id: 614,
+    name: "Marigold Strings (10pcs)",
+    image: "../../diwali/flower1.jpeg",
+    price: 500,
+  },
+  {
+    id: 615,
+    name: "Marigold Strings (2pcs)",
+    image: "../../diwali/flower1.jpeg",
+    price: 120,
+  },
+  {
+    id: 618,
+    name: "Marigold Strings (2pcs)",
+    image: "../../diwali/flower2.jpeg",
+    price: 160,
+  },
+  {
+    id: 619,
+    name: "Marigold Strings (5pcs)",
+    image: "../../diwali/flower2.jpeg",
+    price: 300,
   },
   {
     id: 605,
     name: "Lotus Hanging",
     image: "../../diwali/hanging3.jpeg",
-    price: 200
+    price: 200,
+  },
+  {
+    id: 620,
+    name: "Lotus Hanging",
+    image: "../../diwali/hanging9.jpeg",
+    price: 300,
   },
   {
     id: 609,
     name: "Lotus Hanging (2pcs)",
     image: "../../diwali/hanging6.jpg",
-    price: 60
+    price: 60,
+  },
+  {
+    id: 616,
+    name: "Lotus Hanging (1pc)(Colors Available)",
+    image: "../../diwali/hanging8.jpeg",
+    price: 40,
   },
   {
     id: 610,
     name: "Strings (Pack of 5)",
     image: "../../diwali/flower.jpg",
-    price: 180
+    price: 180,
   },
   {
     id: 583,
@@ -55,9 +97,9 @@ export const diwaliDecoration = [
   },
   {
     id: 584,
-    name: "Tea Light Holder(2)",
+    name: "Tea Light Holder(6pcs)",
     image: "../../diwali/holder2.jpg",
-    price: 80,
+    price: 150,
   },
   {
     id: 585,
@@ -144,6 +186,12 @@ export const diwaliDecoration = [
     price: 200,
   },
   {
+    id: 617,
+    name: "Tea Light Holder",
+    image: "../../diwali/holder19.jpeg",
+    price: 80,
+  },
+  {
     id: 608,
     name: "Lotus Charan (1pc), MOQ-3",
     image: "../../diwali/charan1.jpeg",
@@ -186,13 +234,13 @@ export const diwaliDecoration = [
     price: 200,
   },
   {
-    id: 606,
+    id: 611,
     name: "Rangoli Colors W Nozzle",
     image: "../../diwali/rangolicolors1.jpeg",
     price: 200,
   },
   {
-    id: 607,
+    id: 612,
     name: "Rangoli Colors w/o Nozzle",
     image: "../../diwali/rangolicolors2.jpeg",
     price: 200,
@@ -2438,6 +2486,12 @@ export const accessories = [
 ];
 
 export const kids = [
+  {
+    id: 621,
+    name: "Digital Camera(Colors Available)",
+    image: "../../kids/camera.jpeg",
+    price: 550,
+  },
   { id: 120, name: "Diary & Pen", image: "../../kids/toy.jpeg" },
   { id: 505, name: "Scratch Book", image: "../../kids/book.jpeg", price: 80 },
   {
@@ -5546,6 +5600,12 @@ export const allData = [
     price: 75,
   },
   { id: 119, name: "Loban", image: "../../pooja/loban.jpeg", price: 85 },
+  {
+    id: 621,
+    name: "Digital Camera(Colors Available)",
+    image: "../../kids/camera.jpeg",
+    price: 550,
+  },
   { id: 120, name: "Diary & Pen", image: "../../kids/toy.jpeg" },
   { id: 505, name: "Scratch Book", image: "../../kids/book.jpeg", price: 80 },
   {
@@ -6948,43 +7008,85 @@ export const allData = [
     id: 596,
     name: "Cow Mandir Hanging",
     image: "../../diwali/hanging1.jpeg",
-    price: 250
+    price: 250,
   },
   {
     id: 606,
     name: "Cow Mandir Hanging",
     image: "../../diwali/hanging4.jpeg",
-    price: 250
+    price: 250,
   },
   {
     id: 607,
     name: "Cow Mandir Hanging",
     image: "../../diwali/hanging5.jpeg",
-    price: 250
+    price: 250,
+  },
+  {
+    id: 613,
+    name: "Cow Mandir Hanging(Colors Available)",
+    image: "../../diwali/hanging7.jpeg",
+    price: 320,
   },
   {
     id: 604,
-    name: "Marigold Strings (Pack of 5)",
+    name: "Marigold Strings (5pcs)",
     image: "../../diwali/hanging2.jpeg",
-    price: 300
+    price: 300,
+  },
+  {
+    id: 614,
+    name: "Marigold Strings (10pcs)",
+    image: "../../diwali/flower1.jpeg",
+    price: 500,
+  },
+  {
+    id: 615,
+    name: "Marigold Strings (2pcs)",
+    image: "../../diwali/flower1.jpeg",
+    price: 120,
+  },
+  {
+    id: 618,
+    name: "Marigold Strings (2pcs)",
+    image: "../../diwali/flower2.jpeg",
+    price: 160,
+  },
+  {
+    id: 619,
+    name: "Marigold Strings (5pcs)",
+    image: "../../diwali/flower2.jpeg",
+    price: 300,
   },
   {
     id: 605,
     name: "Lotus Hanging",
     image: "../../diwali/hanging3.jpeg",
-    price: 200
+    price: 200,
+  },
+  {
+    id: 620,
+    name: "Lotus Hanging",
+    image: "../../diwali/hanging9.jpeg",
+    price: 300,
   },
   {
     id: 609,
     name: "Lotus Hanging (2pcs)",
     image: "../../diwali/hanging6.jpg",
-    price: 60
+    price: 60,
+  },
+  {
+    id: 616,
+    name: "Lotus Hanging (1pc)(Colors Available)",
+    image: "../../diwali/hanging8.jpeg",
+    price: 40,
   },
   {
     id: 610,
     name: "Strings (Pack of 5)",
     image: "../../diwali/flower.jpg",
-    price: 180
+    price: 180,
   },
   {
     id: 583,
@@ -7000,9 +7102,9 @@ export const allData = [
   },
   {
     id: 584,
-    name: "Tea Light Holder(2)",
+    name: "Tea Light Holder(6pcs)",
     image: "../../diwali/holder2.jpg",
-    price: 80,
+    price: 150,
   },
   {
     id: 585,
@@ -7089,6 +7191,12 @@ export const allData = [
     price: 200,
   },
   {
+    id: 617,
+    name: "Tea Light Holder",
+    image: "../../diwali/holder19.jpeg",
+    price: 80,
+  },
+  {
     id: 608,
     name: "Lotus Charan (1pc), MOQ-3",
     image: "../../diwali/charan1.jpeg",
@@ -7131,17 +7239,17 @@ export const allData = [
     price: 200,
   },
   {
-    id: 606,
+    id: 611,
     name: "Rangoli Colors W Nozzle",
     image: "../../diwali/rangolicolors1.jpeg",
     price: 200,
   },
   {
-    id: 607,
+    id: 612,
     name: "Rangoli Colors w/o Nozzle",
     image: "../../diwali/rangolicolors2.jpeg",
     price: 200,
-  }
+  },
 ];
 
 //579
