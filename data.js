@@ -9,7 +9,7 @@ export const diwaliDecoration = [
     id: 640,
     name: "LED Candle(1 pc), MOQ-6",
     image: "../../diwali/candle2.jpeg",
-    price: 20,
+    price: 25,
   },
   {
     id: 641,
@@ -7135,7 +7135,7 @@ export const allData = [
     id: 640,
     name: "LED Candle(1 pc), MOQ-6",
     image: "../../diwali/candle2.jpeg",
-    price: 20,
+    price: 25,
   },
   {
     id: 641,
