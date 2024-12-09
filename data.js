@@ -751,7 +751,7 @@ export const household = [
     id: 52,
     name: "Lint Remover",
     image: "../../household/lintremover.jpeg",
-    price: 135,
+    price: 320,
   },
   {
     id: 498,
@@ -4142,7 +4142,7 @@ export const allData = [
     id: 52,
     name: "Lint Remover",
     image: "../../household/lintremover.jpeg",
-    price: 135,
+    price: 320,
   },
   {
     id: 498,
